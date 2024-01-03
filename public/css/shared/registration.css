@@ -1,0 +1,36 @@
+.page-content {
+    background: #eee !important;
+}
+
+.page-bar {
+    background: none!important;
+}
+
+div#registrationForm {
+    border: 1px solid #e2e2e2!important;
+}
+
+.form-wizard .steps > li.active > a.step .number {
+    background-color: #ffffff !important;
+    color: #424242 !important;
+    border: 2px solid #525252;
+}
+
+.form-wizard .steps > li > a.step > .number {
+    border: 2px solid #bfbfbf;
+    background: #fff !important;
+}
+
+.packageBasicInfo img {
+    width: 120px!important;
+    height: 120px!important;
+    margin: 15px auto;
+    border-radius: 50%!important;
+}
+.row.registrationWrapper .input-group.input-medium.date.date-picker .input-group-btn button {
+    font-size: 20px;
+    color: #a9a8a8;
+    width: 40px;
+    padding: 9px;
+    border: 1px solid #ddd;
+}

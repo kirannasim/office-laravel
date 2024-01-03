@@ -1,0 +1,233 @@
+/** responsive section **/
+@media (max-width: 1125px) {
+    .row.lastJoiningsAndActivities .userJoiningsHolder {
+        padding-right: 15px !important;
+    }
+
+    .row.lastJoiningsAndActivities .activitiesHolder {
+        margin-top: 20px;
+    }
+
+    .row.linksHolder .linkContainer.replicaHolder {
+        padding-right: 15px;
+        margin-bottom: 20px;
+    }
+
+    .systemModules .overview, .systemModules .activeInactiveGraph {
+        padding-right: 15px;
+    }
+
+    .systemModules .activeInactiveGraph, .systemModules .premiumModulesList {
+        padding-left: 15px;
+        /* border-left: none; */
+    }
+    .form-wizard .steps > li > a.step > .desc{
+        display: block !important;
+    }
+    .walletWrapper span.balanceAmount i, .walletWrapper span.balanceAmount p {
+        margin: 0;
+        font-style: normal;
+        font-size: 28px;
+        font-weight: 500;
+        color: #544e4e;
+    }
+    .packageWrapper.price-column-container.mt-overlay-1.mt-scroll-right {
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .packageRow.row .product {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 991px){
+    .row.detailedGraphs .navWrapper{
+        padding-right: 0px;
+    }
+    .row.detailedGraphs .graphPaneWrapper{
+        padding-left: 0px;
+    }
+    .row.earnersAndSponsors .userListPane{
+        padding-right: 15px !important;
+    }
+    .row.earnersAndSponsors .userDetailsPane{
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+    .row.earnersAndSponsors .topEarnersListPane {
+        padding-left: 15px !important;
+    }
+    .row.earnersAndSponsors .innerHolder {
+        min-height: auto !important;
+    }
+    .memberNav {
+        padding-right: 0 !important;
+    }
+    .memberPanel {
+        padding-left: 0 !important;
+    }
+    .walletIco {
+        padding: 0px 20px;
+    }
+    span.balanceAmount {
+        padding: 10px 10px;
+        width: 100% !important;
+        text-align: center;
+        max-width: 100%;
+    }
+    .walletWrapper span.balanceAmount i, .walletWrapper span.balanceAmount p {
+        margin: 0;
+        font-style: normal;
+        font-size: 34px;
+        font-weight: 500;
+        color: #544e4e;
+    }
+    .configWrapper.row .configNavigation {
+        padding-right: 15px !important;
+    }
+
+    .configWrapper.row .configFieldWrapper {
+        padding-left: 15px !important;
+    }
+}
+
+@media (max-width: 950px) {
+    .BreadcrumbRight {
+        display: none !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .row.detailedGraphs .navWrapper {
+        padding-right: 15px;
+    }
+
+    .row.detailedGraphs .graphPaneWrapper {
+        padding-left: 15px;
+    }
+
+    .row.lastJoiningsAndActivities {
+        margin: 0;
+    }
+
+    .row.lastJoiningsAndActivities .userJoiningsHolder {
+        padding: 0px;
+    }
+
+    .row.lastJoiningsAndActivities .activitiesHolder {
+        padding: 0px;
+        margin-top: 20px;
+    }
+
+    .row.linksHolder .linkContainer.replicaHolder {
+        padding-right: 15px;
+        margin-bottom: 20px;
+    }
+
+    .systemModules .overview, .systemModules .activeInactiveGraph {
+        padding-right: 15px;
+    }
+
+    .systemModules .activeInactiveGraph, .systemModules .premiumModulesList {
+        padding-left: 15px;
+        /* border-left: none; */
+    }
+
+    .page-content .pageTitleRight {
+        display: none;
+    }
+    .row.lastJoiningsAndActivities .userJoiningsHolder {
+        padding-right: 0px !important;
+    }
+    .page-header.navbar .top-menu{
+        display:none !important;
+    }
+    .page-header.navbar li.timePieceHolder{
+        display:none !important;
+    }
+    .form-wizard .steps > li > a.step > .desc{
+        display: inline-block !important;
+    }
+    .packageHeader .icon:before{
+        left: 48%;
+    }
+    .packageHeader .icon:after{
+        left: 47%;
+    }
+    .memberNav {
+        padding-right: 15px !important;
+    }
+    .memberPanel {
+        padding-left: 15px !important;
+    }
+    .profileManagement .profileNavWrapper {
+        /* background: #f9f9f9; */
+        padding: 7px 15px 7px 15px !important;
+        min-height: auto !important;
+        overflow: visible;
+    }
+    .profileManagement .profilePanelWrapper {
+        padding-left: 15px;
+        min-height: auto !important;
+        padding-top: 7px;
+        /* border: 1px solid black; */
+    }
+    .managementNav {
+        padding-right:15px !important;
+    }
+    .walletHolder {
+        padding-left: 15px !important;
+
+    }
+    .commissionWrapper.row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .commissionWrapper.row .managementNav {
+        padding-right:0px !important;
+        padding-left: 0px;
+    }
+    .referralSummary .row.list-separated.profile-stat {
+        overflow: hidden;
+    }
+    .referralSummary .list-separated .refCountSecond {
+        border-top: solid 1px #eee;
+    }
+    .row.kycRow {
+        margin: 0px;
+    }
+    .sms-LeftBox {
+        border: solid 1px #ddd;
+        background-color: #fff;
+        margin: 0px 15px;
+    }
+    .pendingRegistrations .filters.row .eachFilter.col-md-3.col-sm-3 {
+        width: 50%;
+        float: left;
+    }
+    .pendingRegistrations .filters.row button.filterRequest {
+        position: relative;
+        top: 10px;
+    }
+    .cardNav .navEach {
+        padding: 10px 4px;
+        font-size: 14px;
+    }
+
+}
+@media (max-width: 650px) {
+    .transferWizard .amountInfo {
+        transition: width 0.5s ease;
+        display: block;
+        overflow: hidden;
+        width: 100%;
+    }
+    .transferWizard .amountInfo .content {
+        text-align: center;
+    }
+}
+@media (max-width: 380px){
+    .pendingRegistrations .filters.row .eachFilter.col-md-3.col-sm-3 {
+        width:100%;
+    }
+}

@@ -1,0 +1,52 @@
+/*
+ *  -------------------------------------------------
+ *  Hybrid MLM  Copyright (c) 2018 All Rights Reserved
+ *  -------------------------------------------------
+ *
+ *  @author Acemero Technologies Pvt Ltd
+ *  @link https://www.acemero.com
+ *  @see https://www.hybridmlm.io
+ *  @version 1.00
+ *  @api Laravel 5.4
+ */
+
+.reportOptions {
+    margin-bottom: 10px;
+}
+
+.reportOptions button.btn i {
+    font-size: 15px;
+    padding-right: 2px;
+}
+
+.dataTables_wrapper .table-scrollable {
+    margin: 0px !important;
+}
+
+.reportOptions > button {
+    margin-right: 7px;
+}
+
+.binaryPointBox .widget-thumb-wrap {
+    border: solid 1px #eee;
+}
+
+.widget-thumb.binaryPointBox {
+    padding: 0px;
+    margin: 10px 0px;
+}
+
+.binaryPointBox .widget-thumb-wrap i.widget-thumb-icon {
+    height: 68px;
+}
+
+.binaryPointBox .widget-thumb-body {
+    padding: 7px 0px;
+}
+
+.widget-thumb.binaryPointBox span.widget-thumb-body-stat {
+    display: block;
+    font-size: 22px;
+    font-weight: 600;
+    color: #3e4f5e;
+}

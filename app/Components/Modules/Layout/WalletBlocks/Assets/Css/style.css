@@ -1,0 +1,44 @@
+/*
+ *  -------------------------------------------------
+ *  Hybrid MLM  Copyright (c) 2018 All Rights Reserved
+ *  -------------------------------------------------
+ *
+ *  @author Acemero Technologies Pvt Ltd
+ *  @link https://www.acemero.com
+ *  @see https://www.hybridmlm.io
+ *  @version 1.00
+ *  @api Laravel 5.4
+ */
+
+.walletFilterGroup {
+    left: 5px;
+    display: inline-flex;
+    right: auto !important;
+    bottom: 5px !important;
+}
+
+.walletFilterGroup.filterGear.filterGroup:hover {
+    color: #6d6d6d;
+}
+
+.selectedWallet {
+    display: inline-flex;
+    font-size: 12px;
+    background: #f5f5f5;
+    border: 1px solid #e4e4e4;
+    padding: 2px;
+    border-radius: 8px !important;
+}
+
+.selectedWallet p {
+    margin: 0 4px;
+}
+
+.selectedWallet span, .selectedWallet i {
+    padding: 2px;
+    font-size: 11px;
+}
+
+.dropdown.walletChooser {
+    margin-right: 10px;
+}

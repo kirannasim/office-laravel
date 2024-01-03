@@ -1,0 +1,5 @@
+{
+    "require": {
+        "safecharge-international/safecharge-php": "^2.0"
+    }
+}

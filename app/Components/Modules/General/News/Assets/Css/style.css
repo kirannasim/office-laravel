@@ -1,0 +1,82 @@
+/*
+ *  -------------------------------------------------
+ *  Hybrid MLM  Copyright (c) 2018 All Rights Reserved
+ *  -------------------------------------------------
+ *
+ *  @author Acemero Technologies Pvt Ltd
+ *  @link https://www.acemero.com
+ *  @see https://www.hybridmlm.io
+ *  @version 1.00
+ *  @api Laravel 5.4
+ */
+
+table#autoresponders button.btn {
+    width: 50px;
+}
+
+.page-content {
+    background: #ffffff;
+    overflow: auto;
+}
+
+.row.NewsWrapper {
+    /*margin: auto;
+    padding: 15px;*!
+    overflow: hidden;
+    background: white;
+    box-shadow: 4px 6px 0px rgba(60, 60, 60, 0.1);*/
+}
+
+.newsBoxList {
+    border: solid 1px #eee;
+    margin: 10px 0px;
+}
+
+.newsList button.btn {
+    display: inline-block !important;
+    margin: auto !important;
+    text-align: center;
+}
+
+.newsList .NewsTableWrapper .table td p {
+    margin: 0px;
+}
+
+.fieldWizard.newsManagerForm .fieldHolder {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.fieldWizard.newsManagerForm .fieldHolder .inputHolder {
+    margin-left: 0;
+}
+
+.NewsTableWrapper {
+    margin-top: 20px;
+}
+
+.NewsWrapper .portlet-body.table-responsive {
+    overflow: auto;
+    max-height: 525px;
+    height: auto;
+}
+
+.NewsWrapper .portlet-body.table-responsive {
+    padding-top: 0px !important;
+}
+
+.newsWrapper .activityBody h3 {
+    font-weight: 600 !important;
+    margin-bottom: 8px !important;
+}
+
+.newsWrapper .activityBody p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.newsWrapper .eachActivity .activityHeader {
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,472 @@
+.row.personalInfoGridWrapper {
+    margin: -23px -39px;
+}
+
+.row.personalInfoGridWrapper a.infoGrid {
+    text-decoration: none;
+}
+.row.personalInfoGridWrapper a.infoGrid:hover {
+    background-color: #282f37;
+}
+
+.row.personalInfoGridWrapper .infoGrid {
+    display: flex;
+    flex-direction: column;
+    background-color: #41464d;
+    text-align: center;
+    padding: 10px;
+    height: 57px;
+}
+
+.row.personalInfoGridWrapper .infoGrid.active {
+    background-color: #d22630;
+}
+
+.row.personalInfoGridWrapper .col-sm-2 {
+    padding: 0 1px;
+    /* border-right: solid 1px #cfcccc; */
+    margin: 0;
+}
+
+.row.personalInfoGridWrapper .infoGrid h3 {
+    color: #fff;
+    margin: auto;
+    font-size: 18px;
+    font-family: 'DIN Pro Condensed Medium', sans-serif;
+    text-transform: uppercase;
+}
+
+.row.personalInfoGridWrapper .infoGrid h5 {
+    margin: 5px 0 0;
+    color: #fff;
+    font-family: 'DIN Pro Condensed Medium', sans-serif;
+    font-weight: normal !important;
+    font-size: 12px;
+}
+.row.personalInfoGridWrapper .infoGrid h5.amount {
+    font-family: DIN Pro Bold;
+}
+
+.row.personalInfoGridWrapper .infoGrid h5.amount span {
+    font-family: Kulim Park SemiBold;
+}
+.row.qualifiedWrapperBox {
+    margin: 15px 0px;
+}
+
+.row.qualifiedWrapperBox h3 {
+    font-size: 21px;
+    font-family: DIN Pro Condensed Medium;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.row.qualifiedWrapperBox h3 span.activeEarning i {
+    width: 15px;
+    height: 15px;
+    background-color: #d22630;
+    display: inline-block;
+}
+
+.row.qualifiedWrapperBox h3 span.activeEarning i.green {
+    width: 15px;
+    height: 15px;
+    background-color: #08b790;
+    display: inline-block;
+}
+
+.row.qualifiedWrapperBox h3 span.activeEarning {
+    padding-left: 10px;
+}
+
+.row.qualifiedWrapperBox h3 span.inactiveEarning {
+    padding-left: 10px;
+}
+
+.row.qualifiedWrapperBox h3 span.inactiveEarning i.square {
+    width: 15px;
+    height: 15px;
+    background-color: #bfbebe;
+    display: inline-block;
+}
+
+.row.qualifiedWrapperBox h3 span.upgradeEarning i {
+    color: #d22630;
+    font-size: 23px;
+}
+
+.row.qualifiedWrapperBox h3 span.upgradeEarning {
+    padding-left: 10px;
+}
+
+.row.qualifiedWrapperBox .col-sm-12 {
+    padding: 0px;
+}
+.row.qualifiedWrapperBox .earningsGrid {
+    padding: 0px 2px;
+    margin-bottom: 2px;
+}
+
+.row.qualifiedWrapperBox .earningsGrid .row {
+    margin: 0px;
+}
+
+.earningsGrid .gridRed {
+    background-color: #d22630;
+    display: inline-block;
+    text-align: center;
+    min-height: 80px;
+    padding: 0px;
+}
+
+.earningsGrid .gridGreen {
+    background-color: #07b790;
+    display: inline-block;
+    text-align: center;
+    min-height: 80px;
+    padding: 0px;
+}
+.earningsGrid .gridGray {
+    background-color: #a0a3a6;
+    display: inline-block;
+    text-align: center;
+    min-height: 80px;
+    padding: 0px;
+}
+
+.earningsGrid .gridRed h3, .earningsGrid .gridGreen h3, .earningsGrid .gridGray h3 {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    margin: 0px;
+    padding: 20px 5px;
+    font-family: DIN Pro Condensed Regular;
+}
+
+.earningsGrid .gridRed span.line, .earningsGrid .gridGreen span.line, .earningsGrid .gridGray span.line {
+    height: 44px;
+    width: 1px;
+    background-color: #484646;
+    display: inline-block;
+    margin: -8px 0px;
+    padding: 0;
+    box-shadow: 25px 25px #dddddd0d;
+    /* background: -webkit-linear-gradient(top, #48464621, #484646); */
+    background: linear-gradient(#48464638,#484646ed);
+}
+
+.row.qualifiedWrapperBox .gridWhite {
+    background-color: #fff;
+    min-height: 80px;
+}
+.row.qualifiedWrapperBox .gridWhite h3 {
+    color: #d22630;
+    font-size: 18px;
+    margin: 5px 0px;
+    text-align: left;
+    font-family: DIN Pro Condensed Medium;
+}
+.row.qualifiedWrapperBox .gridWhite.gridGreen-text h3 {
+    color: #07b790;
+}
+.row.qualifiedWrapperBox .gridWhite.gridGray-text h3 {
+    color: #a0a3a6;
+}
+.row.qualifiedWrapperBox .gridGreen-text .gridWhite-inner h3 {
+    color: #a0a3a6;
+}
+
+.gridWhite .row.gridWhite-inner {
+    margin: 0px;
+}
+
+.gridWhite .row.gridWhite-inner h3 {
+    color: #a0a3a6;
+    font-size: 14px;
+    margin: 5px 0px;
+    font-family: DIN Pro Condensed Medium;
+}
+
+.row.qualifiedWrapperBox .earningsGrid .row .col-sm-5 {
+    padding: 0px;
+}
+
+.gridWhite .row.gridWhite-inner h5 {
+    margin: 5px 0px;
+    color: #41464d;
+    font-size: 16px;
+    font-family: 'DIN Pro Bold', sans-serif;
+}
+.gridWhite .row.gridWhite-inner h5 span {
+    font-family: 'DIN Pro Bold', sans-serif;
+    font-size: 18px;
+}
+
+.gridWhite h3 span.info {
+    float: right;
+    margin-top: 5px;
+    font-size: 22px;
+    color: #a0a3a6;
+    cursor: pointer;
+}
+
+.gridWhite .row.gridWhite-inner .panel-heading {
+    padding: 15px 0px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.gridWhite .row.gridWhite-inner .panel-heading i {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #a0a3a6;
+}
+
+.row.qualifiedWrapperBox .earningsGrid .panel-group .panel.panel-default {
+    border: 0px;
+}
+
+.row.qualifiedWrapperBox .earningsGrid .panel-group .panel.panel-default .panel-collapse {
+    background-color: #fff;
+    border-top: 2px solid #eee;
+}
+
+.row.qualifiedWrapperBox .earningsGrid .panel-group .panel.panel-default .panel-collapse .panel-body.table-responsive {
+    height: 250px;
+}
+
+.row.qualifiedWrapperBox .earningsGrid .panel-group .panel.panel-default .panel-collapse .panel-body.table-responsive tbody tr td {
+    border: 0px;
+    color: #a0a3a6;
+    font-size: 14px;
+    font-family: DIN Pro Regular;
+}
+
+.row.qualifiedWrapperBox .earningsGrid .panel-group .panel.panel-default .panel-collapse .panel-body.table-responsive tbody tr td strong {
+    color: #41464d;
+    font-family: DIN Pro Bold;
+}
+.row.qualifiedWrapperBox .earningsGrid .panel-group .panel.panel-default .panel-collapse .panel-body.table-responsive tbody tr td strong span {
+     font-size: 14px;
+    font-family: Kulim Park SemiBold;
+}
+.row.qualifiedWrapperBox .earningsGrid .modal-dialog {
+    width: 70%;
+}
+.row.careerWrapper {
+    margin: 15px -15px;
+}
+
+.row.careerWrapper h3 {
+    color: #41464d;
+    font-size: 21px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 15px 0px;
+    font-family: DIN Pro Condensed Medium;
+}
+
+.row.careerWrapper .careerStatus.red, .row.careerWrapper .careerStatus.gray {
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.row.careerWrapper .careerStatus.red h4 {
+
+     color: #d22630;
+     font-size: 15px;
+     font-weight: normal;
+     font-family: DIN Pro Condensed Medium;
+ }
+.row.careerWrapper .careerStatus.gray h4 {
+    color: #a0a3a6;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: DIN Pro Condensed Medium;
+}
+.row.qualifiedWrapperBox .earningsGrid .modal .modal-header .close {
+    font-size: 23px !important;
+    margin-top: -10px !important;
+    background-color: #d2273000;
+    opacity: 0.7;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    background-position: center;
+}
+
+/* menu header section */
+
+.row.mainBreadcrumb {
+    display: none;
+}
+body {
+    background-color: #282f37 !important;
+}
+.page-header.navbar {
+    background-color: #101820 !important;
+}
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover, .page-sidebar {
+    background-color: #282f37 !important;
+}
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a:hover, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a:hover, .page-sidebar .page-sidebar-menu > li.active > a:hover, .page-sidebar .page-sidebar-menu > li.active.open > a:hover {
+    background: #41464d !important;
+}
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active.open > a, .page-sidebar .page-sidebar-menu > li.active > a, .page-sidebar .page-sidebar-menu > li.active.open > a {
+    background: #d22630 !important;
+    border-top-color: transparent;
+    color: #ffffff !important;
+}
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .sidebar-search .input-group, .page-sidebar .sidebar-search .input-group {
+    border-bottom: 1px solid #686d72 !important;
+}
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li > a, .page-sidebar .page-sidebar-menu > li > a {
+    border-top: 1px solid #686d72 !important;
+    color: #a0a3a6 !important;
+    font-family: 'DIN Pro Condensed Medium', sans-serif;
+    font-size: 18px !important;
+}
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .sidebar-search .input-group .form-control, .page-sidebar .sidebar-search .input-group .form-control {
+    background-color: #282f37 !important;
+    color: #fff !important;
+    font-family: 'DIN Pro Condensed Regular', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+li.timePieceHolder {
+    display: none !important;
+}
+.top-menu li.bookmarks.dropdown {
+    padding: 7px !important;
+}
+.page-header.navbar .top-menu li.currencyPicker.dropdown button.btn.btn-sm.btn-outline.dropdown-toggle, .page-header.navbar .top-menu li.bookmarks.dropdown button.btn.dropdown-toggle {
+    padding: 5px 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 0px !important;
+    background: #41464d;
+    color: #fff;
+    border: 1px solid #41464d;
+    font-family: DIN Pro Condensed Regular;
+    text-transform: uppercase !important;
+}
+li.languagePicker.header, li.currencyPicker.header {
+    padding: 7px !important;
+}
+li.currencyPicker.header .btn-group.localSwitcher a.btn, li.languagePicker.header .btn-group.localSwitcher a.btn {
+    background: #41464d !important;
+    color: #fff;
+    border: 1px solid #41464d !important;
+    border-radius: 0px !important;
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+    font-family: 'DIN Pro Condensed Regular', sans-serif;
+}
+.page-header.navbar .top-menu .navbar-nav > li.dropdown .dropdown-toggle .badge.badge-default {
+    background-color: #d22630 !important;
+    color: #ffffff;
+
+}
+.page-header.navbar .top-menu .navbar-nav > li.dropdown-user > .dropdown-toggle > .username {
+    color: #ffff;
+    font-family: 'DIN Pro Condensed Regular', sans-serif;
+    font-size: 16px !important;
+}
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu > li > a, .page-sidebar .page-sidebar-menu .sub-menu > li > a {
+    color: #b4bcc8;
+    font-family: 'DIN Pro Condensed Regular', sans-serif;
+    font-size: 16px !important;
+}
+
+.gridWhite h3 span.info img {
+    width: 15px;
+    margin-right: 3px;
+}
+.earningsGrid .gridRed > h3, .earningsGrid .gridGreen > h3, .earningsGrid .gridGray > h3 {
+    width: 51px;
+    margin: auto;
+    display: inline-block;
+    padding: 20px 1px;
+}
+
+/*.page-sidebar .page-sidebar-menu li > a > .arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu li > a > .arrow:before {
+=======
+     width: 15px;
+     margin-right: 3px;
+}
+.earningsGrid .gridRed > h3, .earningsGrid .gridGreen > h3, .earningsGrid .gridGray > h3 {
+     width: 51px;
+     margin: auto;
+     display: inline-block;
+     padding: 20px 1px;
+}
+.page-sidebar .page-sidebar-menu li > a > .arrow:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu li > a > .arrow:before {
+>>>>>>> develop-new-redesign-bo
+    font-family: 'Font Awesome 5 Pro', sans-serif !important;
+    content: "\f078" !important;
+}
+
+.page-sidebar .page-sidebar-menu li > a > .arrow.open:before, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu li > a > .arrow.open:before {
+    content: "\f077" !important;
+<<<<<<< HEAD
+}*/
+
+
+
+.page-header.navbar .top-menu .navbar-nav > li.dropdown > .dropdown-toggle > i {
+    font-size: 20px !important;
+    margin-top: 6px !important;
+    color: #fff !important;
+}
+.page-sidebar .page-sidebar-menu > li, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li {
+    text-transform: uppercase;
+}
+
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .sidebar-search .input-group .input-group-btn .btn > i, .page-sidebar .sidebar-search .input-group .input-group-btn .btn > i {
+    color: #fff !important;
+}
+
+.page-sidebar .sidebar-search .input-group .form-control, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .sidebar-search .input-group .form-control {
+    font-size: 18px !important;
+    color: #fff !important;
+}
+
+.page-sidebar .sidebar-search .input-group .form-control::placeholder, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .sidebar-search .input-group .form-control {
+    font-size: 18px !important;
+    color: #fff !important;
+}
+
+.page-header.navbar .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle {
+    padding: 12px 6px 12px 8px !important;
+}
+
+.page-header.navbar .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle > img {
+    margin-top: 0 !important;
+    margin-right: 10px !important;
+}
+
+.page-header.navbar .top-menu .navbar-nav > li.dropdown-user > .dropdown-toggle > .username {
+    color: #fff !important;
+    margin-top: 4px;
+}
+
+.page-header.navbar .top-menu .navbar-nav > li.dropdown > .dropdown-toggle > i.fa-angle-down {
+    vertical-align: middle;
+    margin-top: 0 !important;
+}
+
+@media (min-width: 992px) {
+    .page-content-wrapper .page-content {
+        padding: 25px 40px 10px 40px !important;
+    }
+}
+
+.page-header.navbar .top-menu .navbar-nav > li.dropdown > .dropdown-toggle a i.fa-bookmark {
+    margin-right: 4px;
+}
+
+.page-sidebar .page-sidebar-menu li.active .favourite i {
+    color: #fff !important;
+}

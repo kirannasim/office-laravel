@@ -1,0 +1,99 @@
+/*
+ *  -------------------------------------------------
+ *  Hybrid MLM  Copyright (c) 2018 All Rights Reserved
+ *  -------------------------------------------------
+ *
+ *  @author Acemero Technologies Pvt Ltd
+ *  @link https://www.acemero.com
+ *  @see https://www.hybridmlm.io
+ *  @version 1.00
+ *  @api Laravel 5.4
+ */
+
+.walletDetails {
+    /* background: #eeeeee; */
+    /* border: 1px dotted #ffbbb3; */
+    /*padding: 15px*/;
+    /* border-top-right-radius: 11px !important; */
+    /* border-bottom-left-radius: 11px !important; */
+    border-radius: 8px !important;
+}
+
+.walletDetails p#balanceAmount {
+    font-size: 33px;
+    margin: 7px 0 0;
+}
+
+.walletDetails .balanceAmount {
+    padding: 20px;
+}
+
+.walletDetails .walletIco {
+    color: #ffbeb6;
+}
+
+.walletDetails .balanceAmount h4 {
+    font-size: 16px;
+    color: #b5b5b5;
+    margin-bottom: 20px !important;
+    font-weight: 400;
+}
+
+.walletDetails.row .inner {
+    overflow: hidden;
+    border-top-left-radius: 11px !important;
+    border-bottom-right-radius: 11px !important;
+    box-shadow: 1px 1px 0px rgba(197, 197, 197, 0.33);
+    background: #fff;
+    border: 1px solid #ececec;
+}
+
+.eWalletWrap.row {
+    border-radius: 8px !important;
+    /* background: #eee; */
+}
+
+.walletPaymentButtonWrap {
+    padding: 20px;
+    min-height: 150px;
+}
+
+.walletPaymentButtonWrap p {
+    margin-bottom: 15px;
+    color: #7d7d7d;
+    font-weight: 500;
+}
+
+button.walletInitPayment {
+    font-size: 19px;
+}
+
+.eWalletWrap .error {
+    background: #f55e68;
+    margin-top: 10px;
+    font-size: 12px;
+    position: relative;
+    color: white;
+    border-radius: 2px !important;
+    padding: 5px;
+}
+
+.eWalletWrap .error:after {
+    content: '';
+    border-bottom: 5px solid rgb(231, 80, 90) !important;
+    display: block;
+    border: 5px solid rgba(0, 0, 0, 0);
+    position: absolute;
+    top: -10px;
+    left: 5%;
+}
+
+.walletDetails .wallet {
+    overflow: hidden;
+}
+
+button.walletInitPayment {
+    font-size: 16px;
+    border-radius: 2px !important;
+    min-width: 150px;
+}

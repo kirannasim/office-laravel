@@ -1,0 +1,57 @@
+.row.cronFormWrapper .cronBox {
+    padding-left: 0px;
+}
+
+.row.cronFormWrapper .form-group label {
+    margin: 10px 0px;
+}
+
+.row.cronFormWrapper button.btn {
+    margin-top: 10px;
+}
+
+.cronInfoBox {
+    border: solid 1px #e5f2e7;
+    background-color: #f9f9f9;
+    padding: 15px;
+    color: #898484;
+}
+
+.cronInfo h3 {
+    color: #4d4b4b;
+    font-weight: 400;
+}
+
+.cronInfo p {
+    color: #9b9797;
+}
+
+.cronInfo span {
+    display: block;
+}
+
+.cronInfo button.btn {
+    margin-top: 0px !important;
+}
+
+.currentCronTable table tbody tr td button.btn.ladda-button {
+    width: 50px;
+    display: inline-block !important;
+}
+
+.cronInfo h3 {
+    color: #4d4b4b;
+    font-weight: 400;
+}
+
+.cronInfo p {
+    color: #9b9797;
+}
+
+.cronInfo span {
+    display: block;
+}
+
+.cronInfo button.btn {
+    margin-top: 0px !important;
+}

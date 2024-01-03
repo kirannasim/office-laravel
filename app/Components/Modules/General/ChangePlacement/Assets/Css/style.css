@@ -1,0 +1,86 @@
+/*
+ *  -------------------------------------------------
+ *  Hybrid MLM  Copyright (c) 2018 All Rights Reserved
+ *  -------------------------------------------------
+ *
+ *  @author Acemero Technologies Pvt Ltd
+ *  @link https://www.acemero.com
+ *  @see https://www.hybridmlm.io
+ *  @version 1.00
+ *  @api Laravel 5.4
+ */
+
+.reportOptions {
+    margin-bottom: 10px;
+}
+
+.reportOptions button.btn i {
+    font-size: 15px;
+    padding-right: 2px;
+}
+
+.dataTables_wrapper .table-scrollable {
+    margin: 0px !important;
+}
+
+.reportOptions > button {
+    margin-right: 7px;
+}
+
+.noteMember {
+    width: 100%;
+    margin: 5px 0px 20px;
+    background-color: #eee;
+    border: solid 1px #ddd;
+    border-left: solid 3px #cecaca;
+}
+
+.noteMember h3 {
+    font-size: 14px;
+    margin: 0px;
+    font-weight: 600;
+    background-color: #cecece;
+    width: 75px;
+    text-align: center;
+    padding: 5px;
+}
+
+.noteMember ul li {
+    font-size: 13px;
+    color: #464343;
+    line-height: 22px;
+}
+
+.noteMember ul {
+    margin: 7px 0px;
+}
+
+@media (max-width: 767px) {
+    .reportFilters .eachFilter.operation.col-md-3.col-sm-3 {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media (max-width: 480px) {
+    .reportFilters .eachFilter.operation.col-md-3.col-sm-3 {
+        width: 100% !important;
+        float: none;
+    }
+
+    .reportFilters .filters .eachFilter button {
+        margin: 10px 0px;
+    }
+}
+
+@media (max-width: 360px) {
+    .reportOptions button.btn {
+        margin-right: 0px;
+        margin-bottom: 5px;
+        width: 49%;
+    }
+}
+
+.alertText {
+    color: red;
+}

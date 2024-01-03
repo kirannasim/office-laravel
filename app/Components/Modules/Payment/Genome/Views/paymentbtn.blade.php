@@ -1,0 +1,31 @@
+<div>
+        <form class='pspPaymentForm'>
+            <script src="https://hpp-service.genome.eu/paymentPage.js"
+                class="pspScript"
+                data-iframesrc="https://hpp-service.genome.eu/hpp"
+                data-buttontext="{{$data['button']}}"
+                data-name="{{$data['app']}}"
+                data-key="{{$data['key']}}"
+                data-signature="{{$data['signature']}}"
+                data-uniqueuserid="{{$data['username']}}"
+                data-payment_method='{{$data["payment_mode"]}}'
+                data-midreference='{{$data["mid"]}}'
+                data-uniqueTransactionId='{{$data["transacionid"]}}'
+                data-productPublicIde='{{$data["product_id"]}}'
+                data-email='{{$data["email"]}}'
+                data-firstname='{{$data["first_name"]}}'
+                data-lastname='{{$data["last_name"]}}'
+                data-phone='{{$data["phone"]}}'
+                data-address='{{$data["address"]}}'
+                data-city='{{$data["city"]}}'
+                data-country='{{$data["country"]}}'
+                data-zip='{{$data["postcode"]}}'
+                data-success_url='{{$data["success_url"]}}'
+                data-decline_url='{{$data["cancel_url"]}}'
+                data-back_url='{{$data["back_url"]}}'
+                data-locale='{{$data["locale"]}}'
+                data-displaybuybutton="true"
+                data-type="popup">
+            </script>
+        </form>
+    </div>

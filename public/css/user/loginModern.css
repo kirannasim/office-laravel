@@ -1,0 +1,446 @@
+.vh-100 {
+    height: 100vh;
+}
+
+.minvh-100 {
+    min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family:"Open Sans",sans-serif;
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px;
+    font-family:"Open Sans",sans-serif;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.form-control {
+    height: auto;
+    font-family:"Open Sans",sans-serif;
+    font-size: 14px;
+    padding: 13px 16px 11px;
+    transition: .1s ease-in-out;
+}
+
+.has-error .form-control {
+    border: 1px solid #D22630 !important;
+    border-bottom: none !important;
+    border-radius: .25rem .25rem 0 0;
+}
+
+.display-hide {
+    display: none;
+}
+
+.valid .form-control {
+    border: 1px solid #82bd70 !important;
+    border-bottom: none !important;
+    border-radius: .25rem .25rem 0 0;
+}
+
+.help-block-error {
+    display: block;
+    padding: 13px 16px 11px;
+    font-size: 12px;
+    color: #D22630;
+    background: #ffecec;
+    border: 1px solid #D22630;
+    border-top: none;
+    margin: 0;
+    border-radius: 0 0 .25rem .25rem;
+    width: 100%;
+    text-align: left;
+    font-family:"Open Sans",sans-serif;
+}
+
+label.valid {
+    padding: 13px 16px 11px;
+    font-size: 14px;
+    color: #5ea06d;
+    background: #e4f7e5;
+    border: 1px solid #5ea06d;
+    border-top: none;
+    margin: 0;
+    border-radius: 0 0 .25rem .25rem;
+    width: 100%;
+    text-align: left;
+    font-family:"Open Sans",sans-serif;
+}
+
+.form-control::placeholder {
+    color: #a2a2a2;
+}
+
+.form-control:hover {
+    border: 1px solid #a5a5a5;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #00a9e0;
+    outline: 0;
+}
+
+.form-control:hover .checkbox-circle {
+    border: 1px solid #a5a5a5;
+}
+
+.checkbox-circle {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 1px solid #d3d5d8;
+    background: #fff;
+    display: inline-block;
+    padding: 0;
+    vertical-align: middle;
+    transition: border .2s ease-in-out;
+}
+
+.button-submit {
+    font-family:"Open Sans",sans-serif;
+    font-size: 16px;
+    padding: .7rem 1rem;
+}
+
+hr {
+    width: 100%;
+}
+
+.description-paragraph {
+    color: #777;
+}
+
+.close-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    z-index: 1;
+}
+
+.password-eye {
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    color: #00a9e0;
+    padding: 4px;
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: none !important;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #59da76;
+    border-color: #59da76;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active {
+    color: #fff;
+    background-color: #3ec75d;
+    border-color: #3ec75d;
+}
+
+.text-link {
+    color: #00a9e0;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border .1s ease-in-out;
+}
+
+.text-link:hover {
+    color: #00a9e0;
+    text-decoration: none;
+    border-bottom: 1px solid #00a9e0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.radio-button {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.register-bg-container {
+    display: none;
+}
+
+.label-title {
+    font-size: 14px;
+    color: #555;
+}
+
+.nav-link {
+    font-family:"Open Sans",sans-serif;
+}
+
+select.form-control {
+    padding: 13px 16px 11px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.select {
+    position: relative;
+}
+
+.select:after {
+    content: '';
+    border: solid #00a9e0;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    position: absolute;
+    right: 18px;
+    top: 20px;
+    z-index: 1;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    text-align: center;
+    pointer-events: none;
+}
+
+.error-text {
+    color: #D22630;
+}
+
+.valid-text {
+    color: #82bd70;
+}
+
+.profile-box {
+    border: 1px solid #ced4da;
+    background-color: #f2f3f5;
+    padding: 20px;
+    border-radius: .25rem;
+    transition: .2s;
+}
+
+.profile-box:hover {
+    border: 1px solid #00a9e0;
+}
+
+.profile-icon {
+    color: #00a9e0;
+    font-size: 34px;
+}
+
+.profile-circle {
+    width: 90px;
+    height: 90px;
+    font-size: 30px;
+    line-height: 90px;
+    background-color: #fff;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.loader {
+    position: relative;
+    color: #fff;
+    background-color: #f7f7f7;
+    border-color: #f7f7f7;
+    pointer-events: none !important;
+    transition: .1s;
+}
+
+.loader::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 4px solid #fff;
+    border-top: 4px solid #00a9e0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin .5s linear infinite;
+}
+
+.color-primary {
+    color: #d22630;
+}
+
+.color-secondary {
+    color: #00a9e0;
+}
+
+.background-white {
+    background-color: #fff;
+}
+
+.provider-description {
+    font-size: 18px;
+    font-family:"Open Sans",sans-serif;
+    line-height: 24px;
+}
+
+.border-2 {
+    border: 2px solid;
+}
+
+.icon-description {
+    font-size: 11px;
+    line-height: 14px;
+    font-family:"Open Sans",sans-serif;
+    text-align: center!important;
+}
+
+.login-logo {
+    position: absolute;
+    top: 2.5em;
+    left: 2.5em;
+}
+
+/*checkbox*/
+
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #777;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 2px solid #eee;
+}
+
+.checkbox-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.checkbox-container input:checked ~ .checkmark {
+    background-color: #00a9e0;
+    border: 2px solid #00a9e0;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checkbox-container .checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 7px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/*end checkbox*/
+
+@keyframes spin {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg) ;
+    }
+}
+
+.login-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.localSwitcher {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.localSwitcher ul.dropdown-menu {
+    right: -30px !important;
+    left: auto !important;
+}
+
+.requestSent {
+    text-align: center;
+    display: none;
+}
+
+.requestPassWrap .error {
+    color: #d22630;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+
+    .register-bg-container {
+        display: block;
+    }
+
+    .register-bg {
+        background: url('https://office.elysiumnetwork.test/photos/admin/ModernLoginSlider/bg1.jpg') 85% / cover no-repeat;
+        position: fixed;
+        width: 50%;
+        height: 100%;
+        left: 0;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .container {
+        max-width: 1050px !important;
+    }
+
+}

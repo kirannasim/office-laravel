@@ -1,0 +1,30 @@
+/*Local selector*/
+.btn-group.localSwitcher img {
+    margin-right: 3px;
+}
+
+.btn-group.localSwitcher {
+    float: right;
+}
+
+.btn-group.localSwitcher ul.dropdown-menu {
+    right: 0 !important;
+    left: auto !important;
+}
+
+ul.dropdown-menu:after {
+    right: 34px !important;
+}
+
+ul.dropdown-menu:before, ul.dropdown-menu:after {
+    right: 33px !important;
+    left: auto !important;
+}
+
+button.backToLogin {
+    margin-right: 5px;
+}
+
+.forget-password h4{
+    cursor: pointer;
+}

@@ -1,0 +1,98 @@
+/*
+ *  -------------------------------------------------
+ *  Hybrid MLM  Copyright (c) 2018 All Rights Reserved
+ *  -------------------------------------------------
+ *
+ *  @author Acemero Technologies Pvt Ltd
+ *  @link https://www.acemero.com
+ *  @see https://www.hybridmlm.io
+ *  @version 1.00
+ *  @api Laravel 5.4
+ */
+
+.row.FeedbackWrapper {
+    /*max-width: 800px;*/
+    margin: auto;
+    padding: 15px;
+    overflow: hidden;
+    background: white;
+    /*border: solid 1px #ddd;*/
+}
+
+.row.FeedbackWrapper.userFeedback .eachFilter label {
+    width: 100%;
+    font-weight: 500;
+}
+
+.userFeedback .filters.row input {
+    min-height: 35px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: solid 1px #eee;
+    padding: 5px 10px;
+}
+
+.userFeedback .filters.row select {
+    min-height: 35px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: solid 1px #eee;
+    padding: 5px 10px;
+}
+
+.userFeedback .select2-container {
+    margin-bottom: 15px;
+}
+
+.userFeedback .filters span.select2-selection.select2-selection--single {
+    padding: 0px;
+    height: auto;
+}
+
+.page-content {
+    background: #f1f1f1;
+}
+
+.filterButton {
+    margin-top: 10px;
+}
+
+.feedbackTableDiv {
+    padding-top: 30px;
+}
+
+.actionButtonDiv {
+    margin-left: 500px;
+}
+
+.table-scrollable {
+    overflow: visible !important;
+}
+
+@media (max-width: 767px) {
+    .userFeedback .eachFilter.operation.col-md-3.col-sm-3 {
+        width: 50%;
+        float: left;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .userFeedback .eachFilter.operation.col-md-3.col-sm-3 {
+        width: 100%;
+        float: none;
+    }
+
+    .userFeedback .filters .eachFilter button {
+        margin: 10px 0px;
+    }
+}
+
+.row.FeedbackWrapper.moduleConfig button.btn.btn-primary.ladda-button.editOption {
+    width: 50px;
+}
+
+
+.row.FeedbackWrapper.moduleConfig button.btn.btn-danger.ladda-button.deleteOption {
+    width: 50px;
+}

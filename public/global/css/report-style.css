@@ -1,0 +1,74 @@
+.reportFilters .filters.row input {
+    min-height: 35px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: solid 1px #eee;
+    padding: 5px 10px;
+}
+
+.reportFilters .filters input {
+    min-height: 35px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: solid 1px #eee;
+    padding: 5px 10px;
+}
+
+.reportFilters .filters.row select {
+    min-height: 35px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: solid 1px #eee;
+    padding: 5px 10px;
+}
+.reportFilters .filters .eachFilter label {
+    font-weight: 500;
+    width: 100%;
+}
+.reportFilters .filters .eachFilter button {
+    margin-top: 32px;
+}
+h1.report.page-title {
+    padding: 10px 0px;
+}
+.reportContainer .table-scrollable {
+    overflow: auto;
+    max-height: 450px;
+}
+.reportPrintLeft{
+    text-align: left;
+ }
+.reportPrintRight{
+    text-align: right;
+
+}
+.treelistFilters {
+    border-bottom: 1px solid #e7ecf1;
+    margin-bottom: 10px;
+}
+
+.treelistFilters .filters.row input {
+    min-height: 35px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: solid 1px #eee;
+    padding: 5px 10px;
+}
+.treelistFilters .filters.row select {
+    min-height: 35px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: solid 1px #eee;
+    padding: 5px 10px;
+}
+.treelistFilters .filters .eachFilter label {
+    font-weight: 500;
+    width: 100%;
+}
+.treelistTable .table-scrollable {
+    overflow: auto;
+    max-height: 450px;
+}
+.treelistFilters .filters .eachFilter button {
+    margin-top: 32px;
+}

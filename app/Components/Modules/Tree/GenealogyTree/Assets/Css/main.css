@@ -1,0 +1,161 @@
+/*
+ *  -------------------------------------------------
+ *  Hybrid MLM  Copyright (c) 2018 All Rights Reserved
+ *  -------------------------------------------------
+ *
+ *  @author Acemero Technologies Pvt Ltd
+ *  @link https://www.acemero.com
+ *  @see https://www.hybridmlm.io
+ *  @version 1.00
+ *  @api Laravel 5.4
+ */
+
+.hv-wrapper {
+    display: flex;
+    padding: 10px;
+}
+
+.hv-wrapper > .hv-item {
+    border: 5px solid red;
+    padding: 20px;
+}
+
+.hv-wrapper .hv-item {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.hv-wrapper .hv-item .hv-item-parent {
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.hv-wrapper .hv-item .hv-item-parent p {
+    font-weight: bold;
+    color: #DE5454;
+}
+
+.hv-wrapper .hv-item .hv-item-parent:after {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 25px;
+    bottom: 0;
+    left: 50%;
+    background-color: #bfbfbf;
+    transform: translateY(100%);
+}
+
+.hv-wrapper .hv-item .hv-item-children {
+    display: flex;
+    justify-content: center;
+}
+
+.hv-wrapper .hv-item .hv-item-children .hv-item-child {
+    padding: 0 15px;
+    position: relative;
+}
+
+.hv-wrapper .hv-item .hv-item-children .hv-item-child:only-child:after {
+    display: none;
+}
+
+.hv-wrapper .hv-item .hv-item-children .hv-item-child:before, .hv-wrapper .hv-item .hv-item-children .hv-item-child:after {
+    content: '';
+    position: absolute;
+    background-color: rgb(191, 191, 191);
+    left: 0;
+}
+
+.hv-wrapper .hv-item .hv-item-children .hv-item-child:before {
+    left: 50%;
+    top: 0;
+    transform: translateY(-100%);
+    width: 3px;
+    height: 25px;
+}
+
+.hv-wrapper .hv-item .hv-item-children .hv-item-child:after {
+    top: -25px;
+    transform: translateY(-100%);
+    height: 2px;
+    width: 100%;
+}
+
+.hv-wrapper .hv-item .hv-item-children .hv-item-child:first-child:after {
+    left: 50%;
+    width: 50%;
+}
+
+.hv-wrapper .hv-item .hv-item-children .hv-item-child:last-child:after {
+    width: calc(50% + 2px);
+}
+
+.hv-wrapper.reverse .hv-item {
+    flex-direction: column-reverse;
+}
+
+.hv-wrapper.reverse .hv-item .hv-item-parent {
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.hv-wrapper.reverse .hv-item .hv-item-parent:after {
+    top: 0;
+    transform: translateY(-100%);
+}
+
+.hv-wrapper.reverse .hv-item .hv-item-child {
+    display: flex;
+    align-items: flex-end;
+}
+
+.hv-wrapper.reverse .hv-item .hv-item-child:before {
+    top: auto;
+    bottom: 0;
+    transform: translateY(100%);
+}
+
+.hv-wrapper.reverse .hv-item .hv-item-child:after {
+    top: auto;
+    bottom: -25px;
+    transform: translateY(100%);
+}
+
+/*.hv-item-child .hv-item:last-child .hv-item-parent:after {
+    display: none;
+}*/
+.hv-item-children {
+    transition: all 0.7s ease;
+}
+
+button.data-up {
+    margin: 7px auto;
+    display: block;
+    position: relative;
+}
+
+button.data-up:before {
+    position: absolute;
+    left: 49%;
+    content: '';
+    z-index: 9;
+    height: 9px;
+    bottom: -9px;
+    background: #9a9999;
+    width: 1px;
+}
+
+.webui-popover .webui-popover-content .card {
+    max-width: 235px !important;
+    margin: auto;
+    width: 210px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    padding-top: 0;
+    background-color: rgb(255, 255, 255)
+}

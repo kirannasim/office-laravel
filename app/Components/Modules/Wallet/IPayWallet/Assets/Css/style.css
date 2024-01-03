@@ -1,0 +1,382 @@
+/*
+ *  -------------------------------------------------
+ *  Hybrid MLM  Copyright (c) 2018 All Rights Reserved
+ *  -------------------------------------------------
+ *
+ *  @author Acemero Technologies Pvt Ltd
+ *  @link https://www.acemero.com
+ *  @see https://www.hybridmlm.io
+ *  @version 1.00
+ *  @api Laravel 5.4
+ */
+
+
+.page-content {
+    background: #eee !important;
+}
+
+.transferWrap.eSend h2.heading, .transactionList h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    font-size: 1.4em;
+    padding-bottom: 10px;
+    color: #757575;
+    font-weight: 600;
+}
+
+.transactionList h2 i {
+    color: #c4c4c4;
+}
+
+h2.heading i {
+    margin-right: 10px;
+    color: #c4c4c4 !important;
+}
+
+.eSend .transferWizard .inputs, .transferWizard .inputs {
+    /*box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.05);*/
+    padding: 15px 10px;
+}
+
+.transferWizard .inputs {
+    background-color: #fff;
+}
+
+.transferWizard .inputs, .userHolder {
+    max-width: 100%;
+    margin: auto;
+    background-color: #ffff;
+    /* box-shadow: 1px 0px 0px rgba(0, 0, 0, 0.05);*/
+}
+
+.transferWizard .userHolder {
+    margin-top: 10px !important;
+}
+
+.firstPart .changePass {
+    margin-bottom: 10px;
+}
+
+.walletWrapper .eachNav {
+    border: 2px solid #eeeeee
+}
+
+.walletWrapper .transactionList {
+    overflow: hidden;
+    padding-left: 45px;
+    padding-right: 15px;
+}
+
+.walletWrapper .walletAjaxPartials {
+    border-left: 0px;
+}
+
+.transferInit, .depositInit {
+    /*background: #364150;*/
+}
+
+.walletWrapper .ipInit {
+    background: #364150;
+}
+
+.walletWrapper .errorNotice {
+    max-width: 100%;
+    margin: 15px auto 10px;
+    /*background-color: #f1c0d4;*/
+    color: #000;
+    /*border-left: 5px solid #e775a1;
+    padding: 15px 30px 15px 15px;*/
+}
+
+.walletWrapper .successNotice {
+    max-width: 100%;
+    margin: auto auto 20px;
+    text-align: center;
+    /*background-color: #c0edf1;*/
+    border-color: #58d0da;
+    /*border-left: 5px solid #58d0da;*/
+    padding: 20px 30px 20px 15px;
+}
+
+.eachNav.settings {
+    background: #16aad8 !important;
+}
+
+.eachNav.vcc {
+    background: #7266ba !important;
+}
+
+.transferWhite {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.transferWhite .holder h4.groupName > span i {
+    background: #7266ba;
+    color: #ffffff;
+    font-style: normal;
+}
+
+.payinGraph .portlet.light {
+    padding: 12px 20px 15px;
+    background-color: #fff;
+    margin-left: 25px;
+}
+
+.walletAjaxPartials.row {
+    /* margin: 0px;*/
+}
+
+.eWalletWrap.row {
+    border-radius: 0px !important;
+    background: #fff;
+    margin: 0px;
+    border: solid 1px #ddd;
+}
+
+.transactionPassWrapper {
+    border: 0px;
+}
+
+@media (max-width: 991px) {
+    .eachInput {
+        margin: 5px 0px;
+    }
+
+    .walletAjaxPartials.row {
+        margin-top: 10px;
+    }
+
+    .walletAjaxPartials.row .walletOverview.walletSettings {
+        margin: 10px 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .walletWrapper .transactionList.overTrans {
+        overflow: hidden;
+        padding-left: 45px;
+        padding-right: 1px;
+    }
+
+    .col-md-12.payinGraph {
+        padding: 0px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .walletWrapper .transactionList.overTrans {
+        overflow: hidden;
+        padding-left: 0px;
+        padding-right: 1px;
+    }
+
+    .payinGraph .portlet.light {
+        padding: 12px 20px 15px;
+        background-color: #fff;
+        margin-left: 0px !important;
+    }
+
+    .walletWrapper .transactionList {
+        overflow: hidden;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .walletOverview .navWrapper.setIcon {
+        margin-top: 10px;
+        margin-left: 15px !IMPORTANT;
+    }
+
+    .walletAjaxPartials.row .walletOverview.walletSettings {
+        margin: 10px 15px 10px 0px;
+    }
+}
+
+.walletSettings .subPartials {
+    background: white;
+    padding: 0;
+    padding-left: 56px;
+    border: 1px solid #ddd;
+    width: 100%;
+    min-height: 200px;
+    /* overflow: hidden; */
+}
+
+.walletSettings .subPartials h2 {
+    white-space: nowrap;
+    font-weight: 600;
+    margin-bottom: 5px;
+    /* width: -webkit-min-content; */
+    font-size: 20px;
+    margin-top: 0px;
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 11px;
+}
+
+.walletOverview.walletSettings {
+    display: flex;
+}
+
+.walletSettings ul.navUl {
+    /* position: relative; */
+}
+
+.walletOverview.walletSettings {
+}
+
+.changePasswordFields input[type="password"] {
+    border-color: #cccccc !important;
+}
+
+.walletSettings .wallet.transactionPassWrapper {
+    margin: 0;
+}
+
+.walletSettings .innerWrap {
+    padding-left: 0;
+}
+
+form.passChange {
+    padding-top: 15px;
+}
+
+.changePasswordFields {
+    margin-top: 15px;
+}
+
+.whiteListIp .tab {
+    max-width: 400px;
+    display: flex;
+    margin-top: 33px !important;
+    margin: 25px auto;
+}
+
+.whiteListIp h2 {
+    margin-top: 10px !important;
+}
+
+.whiteListIp .tab input[type="text"] {
+    padding: 6px;
+    border: 2px solid #ddd;
+    border-right: 0;
+}
+
+.whiteListIp .buttonBase > span {
+    padding: 7px;
+    color: #5a5a5a;
+    font-weight: 600;
+    text-transform: uppercase;
+    flex: 1;
+    text-align: center;
+}
+
+button.updateIp {
+    padding: 5px 15px;
+}
+
+.buttonBase {
+}
+
+.whiteListIp .buttonBase {
+    margin-right: 5px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    min-width: 80px;
+    /* border: 1px solid #b7b7b7; */
+    border-radius: 5px !important;
+    box-shadow: 0px 1px 6px inset #8282828a;
+    background: #eee;
+}
+
+.whiteListIp .buttonBase > span.switch {
+    position: absolute;
+    background: #d24b4b;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease;
+    bottom: 0;
+    border-radius: 5px !important;
+    width: 50%;
+}
+
+.whiteListIp .buttonBase > span.switch:after {
+    content: '|||';
+    color: wheat;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.subPartials[data-unit="ipWhiteList"] {
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.whiteListIp .buttonBase.on > span.switch {
+    left: 50%;
+    background: #24afbb;
+}
+
+.errorWrapper {
+    border-top: none !important;
+}
+
+.disabledBox {
+    background-color: #ccc5c5 !important;
+    /* filter: blur(1px); */
+    cursor: not-allowed;
+}
+
+.changePassword {
+    margin-bottom: 10px;
+}
+
+.payInOutChart .portlet-title {
+    text-align: center;
+    border: 0px !important;
+}
+
+.payInOutChart .caption {
+    float: none !important;
+    color: #000 !important;
+}
+
+.payInOutChart .caption span.caption-subject {
+    text-align: center;
+    color: #000 !important;
+    font-weight: 500 !important;
+}
+
+.payInOutChart .caption i {
+    color: #000 !important;
+}
+
+.walletIco {
+    color: #6b6490 !important;
+}
+
+.transactionBody.toggleBody .meta .operation .operationMeta {
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    margin-top: 6px;
+    font-size: 13px;
+}
+
+.transactionBody.toggleBody .meta .operation .operationMeta span {
+    color: #4194dc;
+}
+
+.transactionHeader span.status {
+    padding-left: 170px;
+    color: #0b950b;
+    font-weight: 600;
+}
+
+.transactionHeader span.status span {
+    color: #f46a36;
+}

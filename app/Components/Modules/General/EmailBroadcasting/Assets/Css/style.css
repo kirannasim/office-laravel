@@ -1,0 +1,50 @@
+/*
+ *  -------------------------------------------------
+ *  Hybrid MLM  Copyright (c) 2018 All Rights Reserved
+ *  -------------------------------------------------
+ *
+ *  @author Acemero Technologies Pvt Ltd
+ *  @link https://www.acemero.com
+ *  @see https://www.hybridmlm.io
+ *  @version 1.00
+ *  @api Laravel 5.4
+ */
+
+.emailBroadcaster {
+    border-top: 2px solid #504f4fdd;
+    background: #fff;
+    overflow: hidden;
+    padding: 15px;
+    margin: auto;
+    max-width: 900px;
+    box-shadow: 0px 2px 4px #ddd;
+}
+
+.filterActions {
+    padding: 33px 16px;
+}
+
+.userContainer {
+    margin-bottom: 20px;
+}
+
+.emailSender {
+    overflow: hidden;
+    width: 100%;
+    padding-top: 20px;
+    border-top: 1px dashed #ddd;
+}
+
+.selectAllUsers {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.selectAllUsers label {
+    margin-right: 12px;
+    margin-bottom: 0;
+}
+
+.mailSubject {
+    padding: 5px !important;
+}

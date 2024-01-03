@@ -1,0 +1,605 @@
+/*
+ *  -------------------------------------------------
+ *  Hybrid MLM  Copyright (c) 2018 All Rights Reserved
+ *  -------------------------------------------------
+ *
+ *  @author Acemero Technologies Pvt Ltd
+ *  @link https://www.acemero.com
+ *  @see https://www.hybridmlm.io
+ *  @version 1.00
+ *  @api Laravel 5.4
+ */
+
+#payoutGraph {
+    padding-right: 10px;
+    min-height: 200px;
+    width: 100%;
+}
+
+.page-content {
+    background: #eee;
+}
+
+.payoutNav {
+    margin-top: 10px;
+}
+
+.payoutNav .singleNav {
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-right: none !important;
+    font-weight: 600;
+    color: #ffffff;
+    border: 1px solid #19a76b;
+    background: #1ca96e;
+}
+
+.payoutNav .singleNav.active {
+    background: #fff;
+    font-weight: 600;
+    color: #636363;
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+.payoutWrapper .secondSection {
+    min-height: 80vh;
+}
+
+@media only screen and (min-width: 1000px) {
+    .payoutWrapper .firstSection {
+        padding-right: 0;
+        padding-left: 0px;
+        /* background: #fff; */
+    }
+}
+
+.payoutNav .singleNav i {
+    margin-right: 5px;
+}
+
+.payoutAmount {
+    font-size: 15px;
+    margin-top: 15px;
+    color: #3e3e3e;
+    display: none;
+}
+
+.payoutAmount .pending i,
+.payoutAmount > div.pending p {
+    color: #e25f67;
+}
+
+.payoutAmount > div.processed i,
+.payoutAmount > div.processed p {
+    color: #1ca96e;
+}
+
+.payoutAmount > div i {
+    float: left;
+    font-size: 2em;
+    line-height: 1.2;
+    margin-right: 10px;
+}
+
+.payoutAmount > div > span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.payoutAmount > div p {
+    display: block;
+    margin: 0;
+    font-size: 10px;
+    margin-bottom: 3px;
+    color: #676666;
+    overflow: hidden;
+    line-height: 1;
+}
+
+.payoutAmount > div {
+    margin-bottom: 10px;
+    flex: 1;
+    color: #6d6d6d;
+}
+
+.payoutAmount > div:last-child {
+    margin-bottom: 0;
+}
+
+.filters.row {
+    margin-top: 18px;
+}
+
+.filters.row:first-child {
+    margin-top: 0 !important;
+}
+
+.filters span.select2-selection.select2-selection--single {
+    padding: 5px;
+    height: auto;
+}
+
+.filters .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: normal;
+}
+
+.eachFilter input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+.payoutNav .singleNav.active:after {
+    content: '';
+    width: 2px;
+    top: 0;
+    z-index: 99;
+    right: -1px;
+    height: 100%;
+    position: absolute;
+    background: white;
+}
+
+.singleNav h3 {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.singleNav.active .payoutAmount {
+    display: flex;
+}
+
+.singleNav h3 i {
+    margin-right: 10px;
+}
+
+.singleNav.active h3 {
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 6px;
+}
+
+.filters span.select2-selection.select2-selection--single {
+    padding: 5px;
+    height: auto;
+    border: 1px solid #d4d4d4;
+}
+
+.payoutPanel {
+    background: white;
+    border: 1px solid #ddd;
+    min-height: 80vh;
+}
+
+.payoutWrapper.row button.btn {
+    margin: 10px 0px;
+}
+
+.requestPayout-tile .widget-thumb {
+    padding: 6px;
+    border-radius: 4px;
+    width: 20%;
+    float: left;
+}
+
+.requestPayout-tile .widget-thumb.bordered {
+    border: 1px solid #e7ecf1;
+    border-right: 0px;
+}
+
+.requestPayout-tile .widget-thumb.bordered:last-child {
+    border-right: 1px solid #e7ecf1;
+}
+
+.requestPayout-tile .widget-thumb .widget-thumb-wrap .widget-thumb-icon {
+    float: left;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    margin-right: 5px;
+}
+
+.filterButtonWrapper.rqButton button.btn {
+    margin-top: 33px;
+}
+
+.requestPayout-tile {
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    .requestPayout-tile .widget-thumb {
+        width: 33%;
+    }
+
+    .requestPayout-tile .widget-thumb.bordered {
+        border: 1px solid #e7ecf1 !important;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .requestPayout-tile .widget-thumb {
+        width: 50%;
+    }
+
+    .requestPayout-tile .widget-thumb.bordered {
+        border: 1px solid #e7ecf1 !important;
+
+    }
+}
+
+@media (max-width: 360px) {
+    .requestPayout-tile .widget-thumb {
+        width: 100%;
+    }
+
+    .requestPayout-tile .widget-thumb.bordered {
+        border: 1px solid #e7ecf1 !important;
+    }
+}
+
+.PayoutRequestWrapper .walletPicker h3 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #545353;
+}
+
+.payoutNav .singleNav:last-child {
+    margin: 0;
+}
+
+.payoutNav .singleNav:last-child h3 {
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.payoutRequestNavigation .panelNav .inner {
+    padding: 5px 0;
+    border-bottom: 2px solid transparent;
+    color: #a09a9a;
+    font-weight: 600;
+}
+
+.payoutRequestNavigation .panelNav.active .inner {
+    color: #676565;
+    border-bottom: 2px solid #948d8d;
+}
+
+.row.payoutRequestNavigation > div {
+    /* border-bottom: 2px solid black; */
+}
+
+.row.payoutRequestProgress {
+    margin-bottom: 15px;
+}
+
+.progressHolder .milestone {
+    min-width: 120px;
+    display: flex;
+    flex: 1;
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+.row.payoutRequestProgress .progressHolder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progressHolder .milestone p {
+    font-weight: 600;
+    margin: 0;
+    color: #949292;
+    flex: 1;
+    display: block;
+    text-align: center;
+    position: relative;
+    bottom: 7px;
+}
+
+.progressHolder .milestone span {
+    width: 35px;
+    padding: 6px;
+    font-weight: 600;
+    background: white;
+    position: relative;
+    z-index: 99;
+    color: #a09b9b;
+    height: 35px;
+    text-align: center;
+    border-radius: 50% !important;
+    border: 2px solid #ddd;
+}
+
+.progressHolder .milestone:after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    transition: all 0.5s ease;
+    left: 0;
+    top: 47%;
+    background: #d4d4d4;
+    display: block;
+    position: absolute;
+}
+
+.newPayout .milestone.active.done:after {
+    background: #31b4bf;
+}
+
+.newPayout .milestone.active span {
+    border-color: #31b4bf;
+}
+
+.progressHolder.col-md-12 {
+    margin: 18px 0;
+}
+
+.milestone.finish {
+    text-align: right;
+    justify-content: flex-end;
+}
+
+.milestone.finish i {
+    width: 35px;
+    height: 35px;
+    border: 2px solid #ddd;
+    padding: 9px;
+    background: white;
+    font-weight: 600;
+    color: #ddd;
+    z-index: 999;
+    position: relative;
+    text-align: CENTER;
+}
+
+.payoutPanel .walletBalance .amountWrapper {
+    font-size: 22px;
+}
+
+.payoutPanel .walletBalance {
+    margin-top: 25px;
+    /* border-bottom: 2px dashed #ddd; */
+    padding-bottom: 14px;
+}
+
+.payoutPanel .walletBalance h4 {
+    font-weight: 500;
+    margin-bottom: 6px;
+    font-size: 19px;
+    color: #a5a0a0;
+}
+
+.payoutPanel .walletBalance i {
+    color: #bdb7b7;
+}
+
+.walletDetails {
+    /* min-height: 240px; */
+    margin-top: 30px;
+}
+
+.walletDetails .tile {
+    display: flex;
+    margin-bottom: 15px;
+    /* border: 1px dashed #ddd; */
+}
+
+.walletDetails .tile > i {
+    width: 52px;
+    color: #c3c3c3;
+    font-size: 31px;
+    font-weight: 300;
+    height: 52px;
+    border: 3px solid #ddd;
+    border-top-left-radius: 7px !important;
+    border-bottom-right-radius: 7px !important;
+    /* background: #e6e6e6; */
+    text-align: center;
+    /* border-radius: 50%; */
+    display: inline-block;
+    padding: 7px;
+    line-height: 1;
+}
+
+.walletDetails .tile .data label {
+    width: 100%;
+    color: #b5adad;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.walletDetails .tile.processed .data .amount {
+    font-size: 17px;
+    font-weight: 600;
+    color: #28b1bd;
+}
+
+.walletDetails .tile .data {
+    flex: 1;
+    margin-left: 15px;
+    /* padding-left: 15px; */
+    /* border: 1px dotted #ddd; */
+    /* border-bottom: 2px solid #ddd; */
+}
+
+.newPayout .walletDetails .row {
+    margin-bottom: 15px;
+}
+
+.newPayout .walletDetails .row .tile .data span {
+    font-weight: 600;
+    font-size: 15px;
+    color: #827e7e;
+}
+
+.newPayout .lastTxn {
+    font-size: 14px;
+    margin: 0;
+    display: flex;
+}
+
+.newPayout .lastTxn label {
+    font-weight: 400;
+    color: #b5adad;
+    line-height: 1;
+    margin-right: 5px;
+    margin: 0;
+}
+
+.newPayout .lastTxn .amount {
+    color: #5f5c5c;
+    width: 100%;
+    display: block;
+    font-weight: 600;
+}
+
+.newPayout .lastTxn .txnId {
+    color: #c3c1c1;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.newPayout .lastTxn .operation {
+    color: #928484;
+    font-size: 13px;
+    width: 100%;
+}
+
+.lastTxn.tile i {
+    margin-right: 6px;
+}
+
+.lastTxn.tile .meta {
+    display: block;
+    margin-top: 5px;
+}
+
+.PayoutRequestWrapper .panel:not(.active) {
+    display: none;
+}
+
+.newPayout .actionButtons button:first-child {
+    margin-right: 8px;
+}
+
+.milestone.finish.active.done i {
+    background: #31b4bf;
+    color: #fff;
+    border-color: #31b4bf;
+}
+
+span.select2-selection.select2-selection--single {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    background-color: #fff;
+    border: 1px solid #c2cad8;
+    border-radius: 4px;
+    color: #555;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    outline: 0;
+    padding-top: 6px;
+}
+
+span.select2-selection.select2-selection--single .select2-selection__arrow {
+    position: absolute;
+    bottom: 0;
+    right: 12px;
+    top: 0;
+    width: 4px;
+}
+
+span.select2-selection.select2-selection--single .select2-selection__arrow b {
+    border-color: #999 transparent transparent transparent;
+    border-style: solid;
+    border-width: 4px 4px 0 4px;
+    height: 0;
+    left: 0;
+    margin-left: -4px;
+    margin-top: -2px;
+    position: absolute;
+    top: 50%;
+    width: 0;
+}
+
+.payout.requestedAmount.amount .errors .error {
+    background: #da3b3b;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 5px;
+}
+
+.payout.requestedAmount.amount .errors {
+    margin-top: 10px;
+}
+
+.payoutRequestSuccess h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.payoutRequestSuccess {
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.payoutRequestSuccess i {
+    color: #32c5d2;
+    transition: all 0.5s ease;
+    right: 100px;
+    position: relative;
+}
+
+.payoutRequestSuccess.done i {
+    right: 0;
+}
+
+.PayoutWarning {
+    border: 1px #c3cfcc dotted;
+    text-align: center;
+    padding: 35px;
+}
+
+.PayoutWarning i {
+    font-size: 48px;
+    color: #dc3912;
+}
+
+.PayoutWarning h3 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #555252;
+}
+
+.loadHere .paginationInfo, .loadHere .selectAll {
+    display: inline-block;
+    float: left;
+}
+
+.loadHere .extras {
+    display: block;
+    overflow: hidden;
+    margin: 25px 0;
+}
+
+.loadHere .selectAll {
+    float: right;
+    margin: 0;
+}
+
+.paginationHolder {
+    margin-top: 20px;
+}

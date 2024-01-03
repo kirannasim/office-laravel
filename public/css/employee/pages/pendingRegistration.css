@@ -1,0 +1,221 @@
+.filters span.select2-selection.select2-selection--single {
+    padding: 0;
+}
+
+.page-content {
+    background: #eee !important;
+}
+
+.listHolder {
+    /*background: 3px 3px 0px #c5c5c587;*/
+}
+
+button.filterRequest {
+    position: relative;
+    top: 34px;
+}
+
+form.filterForm {
+    padding-bottom: 19px;
+    border-bottom: 2px solid #e2e2e2;
+}
+
+.reportContainer .listHolder .eachList {
+    /* padding: 8px; */
+    cursor: pointer;
+    border-left: 4px solid #26a1d5;
+    margin-bottom: 7px;
+    position: relative;
+    /* border-bottom: 1px solid #d2d1d1; */
+    background: white;
+    box-shadow: -3px 3px 6px #b3b1b15e;
+    /* overflow: hidden; */
+}
+
+.reportContainer .listHolder .eachList .gateway {
+    font-weight: 600;
+    margin-right: 10%;
+    min-width: 15%;
+    /* border-bottom: 1px dashed #afa8a8; */
+    display: inline-block;
+}
+
+.reportContainer .listHolder .eachList .id {
+    margin-right: 12px;
+    color: #928787;
+    /* font-size: 20px; */
+    padding: 5px;
+    /* background: #454f5d; */
+    display: inline-block;
+    font-weight: 600;
+}
+
+.reportContainer .listHolder .eachList .amount {
+    background: #29aeb5;
+    font-size: 13px;
+    display: inline-block;
+    padding: 2px 5px;
+    border-top-left-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    color: white;
+}
+
+.reportContainer h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #696868;
+    /* border-bottom: 1px dotted #a7a7a7; */
+    padding-bottom: 5px;
+}
+
+.eachFilter.col-md-3 label {
+    color: #545454;
+}
+
+.reportContainer .listHolder .eachList .timestamp {
+    float: right;
+    background: #26a1d5;
+    padding: 6px;
+    border-bottom-right-radius: 3px !important;
+    border-top-right-radius: 3px !important;
+    /*color: #807777;*/
+    color: white;
+    font-size: 13px;
+}
+
+.eachList.active .timestamp:after {
+    content: '';
+    border: 5px solid transparent;
+    height: 0px;
+    border-left: 5px solid #26a1d5;
+    width: 0;
+    top: 36%;
+    position: absolute;
+    display: block;
+    z-index: 9999;
+    right: -10px;
+}
+
+.reportContainer .listHolder .eachList.resolved .timestamp {
+    background: #06a286;
+}
+
+.reportContainer .listHolder .eachList.resolved {
+    border-left: 4px solid #06a286;
+}
+
+.eachList.resolved.active .timestamp:after {
+    border-left: 5px solid #06a286;
+}
+
+.cardBody {
+    width: auto !important;
+    min-height: 130px;
+    text-align: left;
+    border: 1px solid #ddd;
+    display: none;
+}
+
+.cardNav {
+    display: flex;
+    width: 100%;
+    background: #eee;
+}
+
+.cardNav .navEach {
+    padding: 7px 16px;
+    cursor: pointer;
+    background: #f3f3f3;
+    margin-right: 7px;
+    font-size: 16px;
+    border: 1px solid #dadada;
+    /* box-shadow: 0px -3px 0px #bbbbbb8a inset; */
+    color: #b1b1b1;
+    font-weight: 600;
+    border-bottom: none;
+    position: relative;
+}
+
+.card .eachData {
+    padding: 10px;
+    border-bottom: 1px dotted #ddd;
+}
+
+.cardNav .navEach:last-child {
+    /* box-shadow: 3px -1px 4px 1px #e6e6e68a inset; */
+}
+
+.cardNav .navEach.active {
+    color: #635f5f;
+    background: white;
+    /* border: 1px solid #ddd; */
+    border-bottom: none;
+}
+
+.cardNav .navEach.active i {
+    color: #a9a9a9;
+}
+
+.cardNav .navEach i {
+    color: #bbb8b8;
+}
+
+.card {
+    width: auto !important;
+    border: none;
+}
+
+.navEach.active:after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    display: block;
+    height: 2px;
+    z-index: 999;
+    background: white;
+    left: 0;
+    width: 100%;
+}
+
+.cardNav .navEach:first-child {
+    border-top-left-radius: 8px !important;
+}
+
+.cardNav .navEach:last-child {
+    border-top-right-radius: 8px !important;
+}
+
+.cardBody.active {
+    display: block;
+    padding: 10px 8px;
+}
+
+.card .eachData label {
+    margin: 0;
+    font-weight: 600;
+    color: #908585;
+    min-width: 20%;
+}
+
+.card .eachData .value {
+    color: #ddd;
+}
+
+button.filterRequest {
+    padding: 4px 5px;
+}
+
+button.filterRequest i {
+    margin-right: 4px;
+}
+
+.detailsHolder .approve {
+    margin-top: 10px;
+}
+
+.cardNav .approve {
+    margin: 0;
+    float: right;
+    display: flex;
+}

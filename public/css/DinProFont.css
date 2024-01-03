@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'DIN Pro Regular';
+  src: url('../fonts/DinPro/DINPro.otf');
+}
+
+@font-face {
+  font-family: 'DIN Pro Condensed Regular';
+  src: url('../fonts/DinPro/DINPro-Cond.otf');
+}
+
+@font-face {
+  font-family: 'DIN Pro Condensed Medium';
+  src: url('../fonts/DinPro/DINPro-CondMedium.otf');
+}
+
+@font-face {
+  font-family: 'DIN Pro Bold';
+  src: url('../fonts/DinPro/DINPro-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Kulim Park SemiBold';
+  src: url('../fonts/KulimPark/KulimPark-SemiBold.ttf');
+}

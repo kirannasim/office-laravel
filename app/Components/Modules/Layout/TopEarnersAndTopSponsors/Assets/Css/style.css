@@ -1,0 +1,158 @@
+/*
+ *  -------------------------------------------------
+ *  Hybrid MLM  Copyright (c) 2018 All Rights Reserved
+ *  -------------------------------------------------
+ *
+ *  @author Acemero Technologies Pvt Ltd
+ *  @link https://www.acemero.com
+ *  @see https://www.hybridmlm.io
+ *  @version 1.00
+ *  @api Laravel 5.4
+ */
+
+.row.earnersAndSponsors {
+    margin-bottom: 15px;
+}
+
+.row.earnersAndSponsors .userDetailsPane .innerHolder {
+    border: 1px solid #ddd;
+    background: white;
+    padding: 10px;
+}
+
+.row.earnersAndSponsors .userDetailsPane {
+    padding-right: 0;
+    border-left: none !important;
+    border-right: none !important;
+    overflow: visible;
+    padding-left: 0;
+    /* border: 1px solid #ddd; */
+}
+
+.row.earnersAndSponsors .userListPane {
+    padding-right: 0;
+    /* border: 1px solid #ddd; */
+    border-left: none;
+    border-right: none;
+    /*padding-right: 0;*/
+}
+
+.row.earnersAndSponsors .userListPane .innerHolder {
+    border: 1px solid #ddd;
+    border-right: 0;
+    background: white;
+}
+
+.topEarnersListPane {
+
+}
+
+.row.earnersAndSponsors .userDetailsPane .innerHolder {
+    /* border-left: none!important; */
+    /* border-right: none!important; */
+    display: flex;
+    align-items: center;
+}
+
+.noUser {
+    padding: 10px;
+    font-size: 13px;
+    color: #969393;
+}
+
+.topEarnersListPane .innerHolder {
+    border: 1px solid #ddd;
+    border-left: none;
+    background: white;
+}
+
+.topEarnersListPane {
+    padding-left: 0 !important;
+}
+
+.topEarnersListPane .userListPortlet .user.active:after {
+    left: -2px;
+}
+
+.topEarnersListPane .userListPortlet .user.active {
+    border-right: 1px solid #ddd;
+}
+
+.sponsorInfoWrapper .filterGroup {
+    z-index: 99;
+    right: 15px;
+    top: 20px;
+}
+
+.userDetailsPane .innerHolder {
+    min-height: 120px;
+}
+
+.earningsInfoHolder .commissionDetails .commission {
+    padding: 5px 0;
+    color: #7b7b7b;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.earningsInfoHolder .commissionDetails .commission .amount {
+    margin-left: 10px;
+    color: #008021;
+    border-bottom: 1px dotted #a5a4a4;
+}
+
+.earningsInfoHolder .commissionDetails .commission label {
+    margin: 0;
+    font-weight: 600;
+    color: #5a5a5a;
+    min-width: 50%;
+}
+
+.earningsInfoHolder .commissionDetails {
+    border-top: 2px solid #c5c5c5;
+    padding-top: 1px !important;
+    display: none;
+    z-index: 99;
+    padding: 10px;
+    bottom: 42px;
+    box-shadow: 0px -8px 6px #0000001f;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    background: white;
+}
+
+.earnedAmount {
+    color: #565656;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 18px;
+    width: 100%;
+    padding-bottom: 3px;
+    /* margin-bottom: 10px; */
+    /* border-bottom: 1px solid #929292; */
+}
+
+.earnedAmount span {
+    font-size: 21px;
+    margin-left: 10px;
+    color: #056129;
+}
+
+.earnedAmount button {
+    padding: 4px 8px;
+    font-size: 11px;
+    float: right;
+}
+
+.row.lastJoiningsAndActivities {
+    margin-bottom: 10px;
+}
+
+.earningsInfoHolder {
+    width: 100%;
+}
+
+.sponsorInfoWrapper {
+    width: 100%;
+}

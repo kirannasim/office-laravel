@@ -1,0 +1,146 @@
+<?php
+/**
+ *  -------------------------------------------------
+ *  Hybrid MLM  Copyright (c) 2018 All Rights Reserved
+ *  -------------------------------------------------
+ *
+ * @author Acemero Technologies Pvt Ltd
+ * @link https://www.acemero.com
+ * @see https://www.hybridmlm.io
+ * @version 1.00
+ * @api Laravel 5.4
+ */
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Authentication Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are used during authentication for various
+    | messages that we need to display to the user. You are free to modify
+    | these language lines according to your application's requirements.
+    |
+    */
+
+    'payment' => 'pagamento',
+    'profile' => 'perfil',
+    'sponsorinfo' => 'Patrocinador & Pacote',
+    'sponsorhelp' => 'Fornecer o nome do patrocinador',
+    'sponsor' => 'Patrocinador Nome De Usuário',
+    'placement' => 'A Colocação Do Nome De Usuário',
+    'username' => 'Nome de usuário',
+    'email' => 'E-mail',
+    'password' => 'Palavra-passe',
+    'confirm_password' => 'Confirmar Senha',
+    'first_name' => 'Primeiro Nome',
+    'last_name' => 'Último Nome',
+    'phone_number' => 'Número De Celular',
+    'gender' => 'Sexo',
+    'male' => 'Masculino',
+    'female' => 'Feminino',
+    'address' => 'Endereço',
+    'city' => 'Cidade',
+    'country' => 'País',
+    'state' => 'Estado',
+    'pin' => 'Código postal',
+    'bank_name' => 'Nome Do Banco',
+    'account_number' => 'Número Da Conta',
+    'profile' => 'Perfil',
+    'remarks' => 'Comentários',
+    'billing' => 'Faturamento',
+    'dob' => 'Data de nascimento',
+    'userinfo' => 'Forneça os seus dados de utilizador',
+    'formerrorscheck' => 'Você tem algum tipo de erros. Por favor, confira abaixo.',
+    'personal_details' => 'Detalhes Da Conta',
+    'profile_setup' => 'Configuração De Perfil',
+    'confirm_and_payment' => 'Confirmar e Pagamento',
+    'accountdetails' => 'Detalhes Da Conta',
+    'sponsordetails' => 'Patrocinador Detalhes',
+    'enter_sponsor' => 'Digite Patrocinador',
+    'enter_username' => 'Digite Nome De Usuário',
+    'enter_password' => 'Introduza A Palavra-Passe',
+    'enter_password_again' => 'Digite A Senha Novamente',
+    'enter_email' => 'Introduza o endereço de E-mail',
+    'provide_profile_details' => 'Configuração De Perfil',
+    'enter_firstname' => 'Digite O Primeiro Nome',
+    'enter_phone' => 'Introduza O Número De Telefone Móvel',
+    'enter_lastname' => 'Digite Último Nome',
+    'enter_date_of_birth' => 'Insira A Data De Nascimento',
+    'enter_address' => 'Introduza O Endereço De',
+    'enter_city' => 'Insira A Cidade',
+    'enter_address' => 'Introduza O Endereço De',
+    'city' => 'Cidade',
+    'enter_pin' => 'Inserir Código Postal',
+    'enter_bank_name' => 'Digite O Nome Do Banco',
+    'enter_acc_number' => 'Introduza O Número De Conta',
+    'bank_details' => 'Dados Bancários',
+    'review_and_payment' => 'Revisão e Pagamento',
+    'back' => 'De volta',
+    'continue' => 'Continuar',
+    'submit' => 'Enviar',
+    'confirm_your_account' => 'Confirme Sua Conta',
+    'review' => 'Revisão',
+    'packagedetails' => 'Detalhes Do Pacote',
+    'home' => 'Casa',
+    'formstuff' => 'Formulário De Coisas',
+    'registration_pack' => 'O Registo Pack',
+    'initialse_payment_after_review' => 'Inicializar o seu pagamento, após revisão',
+    'here' => 'Aqui',
+    'total_amount_to_be_paid' => 'Valor Total a ser pago',
+    'registration_wizard' => 'Registar Novo Membro : ',
+    'step_1_4' => 'Etapa 1 DE 4',
+    'click_to_login' => 'Clique Para Acessar',
+    'thanks' => 'Obrigado',
+    'you_have_added' => 'Você Adicionou ',
+    'to_cart' => 'carrinho de compras.',
+    'invalid_placement_or_position' => 'Inválido Colocação ou Posição',
+    'register_new_user' => 'Registar Novo Membro',
+    'transaction_password' => 'A Senha',
+    'invalid_transaction_password' => 'Transação Inválida Senha',
+    'invalid_username_or_password' => 'Nome de usuário inválido ou Senha',
+    'pv' => 'PV',
+    'sponsor_not_exist' => 'O patrocinador parece ser não existe !',
+    'username_not_exist' => 'O nome parece ser de existir !',
+    'email_not_exist' => 'O e-mail parece ser tomadas ou não é válido !',
+    'review_order' => 'Revisão de ordem de',
+    'err_sponsor_required' => 'Por Favor, Digite Patrocinador',
+    'err_username_required' => 'Por Favor, Insira O Nome De Usuário',
+    'err_package_required' => 'Por favor Seleccione um Pacote',
+    'err_password_required' => 'Por Favor, Introduza A Palavra-Passe',
+    'err_confirm_password_required' => 'Por Favor, Digite Confirmar Palavra-Passe',
+    'err_confirm_password_missmatch' => 'Confirmar Palavra-Passe De Incompatibilidade',
+    'err_firstname_required' => 'Por favor, Digite o Primeiro nome',
+    'err_lastname_required' => 'Por favor, Introduza o Último nome',
+    'err_phone_required' => 'Por Favor, Digite Telefone',
+    'err_email_required' => 'Por Favor, Digite E-Mail',
+    'err_gender_required' => 'Por Favor, Digite O Género',
+    'err_address_required' => 'Por Favor, Introduza O Endereço',
+    'err_city_required' => 'Por Favor, Insira A Cidade',
+    'err_country_required' => 'Por Favor, Digite País',
+    'err_enter_state' => 'Por Favor, Introduza O Estado',
+    'err_enter_pin' => 'Por Favor, Digite O Código Postal',
+    'err_enter_dob' => 'Por favor, Insira a Data de nascimento',
+    'err_atleast_5_character' => 'Digite Pelo Menos 5 Caracteres',
+    'err_atleast_6_character' => 'Digite Pelo Menos 6 Caracteres',
+    'package_selected' => 'Pacote Selecionado',
+    'close' => 'Fechar',
+    'order_summary' => 'Resumo Do Pedido',
+    'you_are_registered' => 'Você está registrado com sucesso',
+    'after_reg_text' => 'Você vai obter informações de conta de e-mail',
+    'receipt' => 'Recebimento',
+    'back' => 'De volta',
+    'Thank_you_for_your_business' => 'Obrigado por seu negócio!',
+    'Billing_Information' => 'Informações De Faturamento',
+    'Shipping_Information' => 'Informações De Envio',
+    'no_payment_gateway_installed' => 'Não gateway de pagamento instalado',
+    'Image' => 'Imagem',
+    'Name' => 'Nome',
+    'Price' => 'Preço',
+    'PV' => 'PV',
+    'Description' => 'Descrição',
+    'More' => 'Mais',
+    'registration_temporarily_suspended' => 'Inscrição suspensa Temporariamente',
+
+];

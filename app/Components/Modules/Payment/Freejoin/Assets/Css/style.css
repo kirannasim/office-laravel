@@ -1,0 +1,95 @@
+/*
+ *  -------------------------------------------------
+ *  Hybrid MLM  Copyright (c) 2018 All Rights Reserved
+ *  -------------------------------------------------
+ *
+ *  @author Acemero Technologies Pvt Ltd
+ *  @link https://www.acemero.com
+ *  @see https://www.hybridmlm.io
+ *  @version 1.00
+ *  @api Laravel 5.4
+ */
+
+.freejoinDescription {
+    margin-bottom: 18px;
+    color: #2ab4c0;
+}
+
+.freeJoinWrap .success h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 0 !important;
+}
+
+.freeJoinWrap .success h2 i {
+    margin-right: 5px;
+    color: #0db07c;
+    position: relative;
+    right: 100%;
+    font-weight: 600;
+    transition: all 0.7s ease;
+    line-height: 1;
+}
+
+.freeJoinWrap .formWrapper.done h2 i {
+    right: 0% !important;
+}
+
+.freeJoinWrap .success .description {
+    font-size: 18px;
+    color: #8e8e8e;
+}
+
+.freeJoinWrap {
+    /* text-align: center; */
+}
+
+.freeJoinWrap .success {
+    padding-left: 15px;
+    overflow: hidden;
+    display: none;
+}
+
+.freejoinBox {
+    padding: 30px 15px;
+}
+
+.freejoinDescription {
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.freejoinIcon img {
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+    opacity: 0.4;
+}
+
+.freejoinInstruction button.btn.green.registerMeFreeJoin {
+    margin: auto;
+    display: block;
+    padding: 10px 25px;
+}
+
+.freejoinInstruction {
+    padding: 20px 15px;
+    border: dotted 1px #ddd;
+    position: relative;
+    text-align: center;
+}
+
+.freejoinInstruction i {
+    position: absolute;
+    top: -19px;
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    background-color: #eee;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 50%;
+}

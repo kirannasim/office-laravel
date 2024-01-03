@@ -1,0 +1,26 @@
+{
+  "tags": {
+    "allowUnknownTags": false
+  },
+  "source": {
+    "include": ["./src"],
+    "includePattern": "(.js|README.md)$"
+  },
+  "plugins": [
+    "node_modules/jsdoc/plugins/markdown"
+  ],
+  "markdown": {
+    "tags": ["param", "deprecated", "description"]
+  },
+  "opts": {
+    "template": "node_modules/docdash/",
+    "encoding": "utf8",
+    "destination": "./docs/",
+    "recurse": true,
+    "verbose": true
+  },
+  "templates": {
+    "cleverLinks": true,
+    "monospaceLinks": false
+  }
+}

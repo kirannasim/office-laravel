@@ -1,0 +1,101 @@
+/*
+ *  -------------------------------------------------
+ *  Hybrid MLM  Copyright (c) 2018 All Rights Reserved
+ *  -------------------------------------------------
+ *
+ *  @author Acemero Technologies Pvt Ltd
+ *  @link https://www.acemero.com
+ *  @see https://www.hybridmlm.io
+ *  @version 1.00
+ *  @api Laravel 5.4
+ */
+
+ul.commissionListInner {
+    list-style: none;
+    padding: 0;
+}
+
+ul.commissionListInner li {
+    padding: 5px 0;
+    font-weight: 500;
+    overflow: hidden;
+    font-size: 13px;
+}
+
+ul.commissionListInner li label {
+    font-weight: 600;
+    color: #7d7878;
+    max-width: 75%;
+    float: left;
+    font-size: 13px;
+}
+
+li.commissionNav .totalAmount {
+    background: #2dadb9;
+    min-width: 28px;
+    padding: 0 5px;
+    border-radius: 2px !important;
+    float: right;
+    color: white;
+    font-size: 11px;
+    flex: 1;
+    text-align: center;
+}
+
+ul.commissionListInner h3 {
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 6px;
+    margin-bottom: 0px;
+    white-space: nowrap;
+    /* border-bottom: 3px solid #e0e0e0; */
+    margin-top: 0;
+}
+
+.commissionAmountBox {
+    font-size: 30px;
+    margin: 15px 0;
+    color: #656161;
+}
+
+.commissionAmountBox i {
+    color: #cac4c4;
+}
+
+.portlet-title .scopeChooser {
+    margin-left: 20px;
+    display: inline-block;
+    padding: 8px;
+    float: right;
+}
+
+.selectedWallet, .selectedScope {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 12px !important;
+    padding: 2px 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 120px;
+    overflow: hidden;
+    border: 1px solid #cacaca;
+    margin-right: 5px;
+    background: #fff;
+}
+
+.selectedWallet p, .selectedScope p {
+    display: inline;
+    margin: 0;
+}
+
+.selectedWallet span, .selectedScope span {
+    margin-right: 2px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.selectedWallet i, .selectedScope i {
+    margin-left: 4px;
+}
+

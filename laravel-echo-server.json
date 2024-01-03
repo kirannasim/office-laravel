@@ -1,0 +1,32 @@
+{
+	"authHost": "http://localhost/blueprint/app/public",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [
+		{
+			"appId": "b65a24a34c81c048",
+			"key": "a3b39da40063d7072f0ab521bb05b327"
+		}
+	],
+	"database": "redis",
+	"databaseConfig": {
+		"redis": {},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		}
+	},
+	"devMode": true,
+	"host": "0.0.0.0",
+	"port": "6002",
+	"protocol": "http",
+	"socketio": {},
+	"sslCertPath": "",
+	"sslKeyPath": "",
+	"sslCertChainPath": "",
+	"sslPassphrase": "",
+	"apiOriginAllow": {
+		"allowCors": false,
+		"allowOrigin": "",
+		"allowMethods": "",
+		"allowHeaders": ""
+	}
+}

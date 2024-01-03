@@ -1,0 +1,68 @@
+.newenrollee h3
+{
+	color: #41464d;
+	font-family: DIN Pro Condensed Medium;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.newenrollee .eachDetail .value
+{
+	text-align: right;
+	font-family: DIN Pro Condensed Medium;
+	color: #41464d;
+}
+.newenrollee .name .value
+{
+	color:#d22630 !important;
+	text-align: center;
+}
+
+.newenrollee .addToCart button
+{
+	background-color: #41464d !important;
+}
+
+.newenrollee .addToCart button:hover
+{
+	background-color: #d22630 !important;
+}
+
+.newenrollee .addToCart button.selected
+{
+	background-color: #d22630 !important;
+}
+
+.newenrollee .btn-action
+{
+	background-color: #08d790;
+}
+
+
+.newenrollee  .desc
+{
+	text-transform: uppercase;
+	font-size: 22px;
+	font-family: DIN Pro Condensed Medium;
+	font-weight: bold;
+}
+
+.newenrolle label
+{
+	text-transform: uppercase;
+	font-size: 22px;
+	font-family: DIN Pro Condensed Medium;
+	color:#41464d;
+}
+
+.form-wizard .steps > li.active > a.step .desc
+{
+	color: #d22630 !important;
+}
+
+.newenrollee .progress-bar-success
+{
+	background-color: #d22630 !important;
+	border-top: 6px solid #d22630;
+}
+

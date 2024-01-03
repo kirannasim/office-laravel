@@ -1,0 +1,45 @@
+[
+    {
+        "name": "safecharge-international/safecharge-php",
+        "version": "2.0.0",
+        "version_normalized": "2.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/SafeChargeInternational/safecharge-php.git",
+            "reference": "659d3f30c3271e583e1c537fde5bddecf46be480"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/SafeChargeInternational/safecharge-php/zipball/659d3f30c3271e583e1c537fde5bddecf46be480",
+            "reference": "659d3f30c3271e583e1c537fde5bddecf46be480",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "monolog/monolog": "^1.23",
+            "phpunit/phpunit": "^7.5"
+        },
+        "time": "2019-09-05T14:13:40+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SafeCharge\\Api\\": "src/SafeCharge/Api"
+            },
+            "classmap": []
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "A PHP client library for accessing SafeCharge API",
+        "homepage": "https://github.com/SafeChargeInternational/safecharge-php",
+        "keywords": [
+            "safecharge"
+        ]
+    }
+]

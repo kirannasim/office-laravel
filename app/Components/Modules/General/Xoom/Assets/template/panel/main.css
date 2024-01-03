@@ -1,0 +1,16 @@
+#app.main-panel {
+    background-color: #EAEAEA;
+}
+
+#app > nav > div > div.collapse.navbar-collapse > div > ul > li.dropdown.dropright,
+#app > nav > div > div.collapse.navbar-collapse > div > ul > li.dropdown {
+    display: none;
+}
+
+.sidebar-wrapper {
+    background-color: #495466 !important;
+}
+
+.sidebar-wrapper:after {
+    background-image: none !important;
+}

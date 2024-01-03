@@ -1,0 +1,223 @@
+/*
+ *  -------------------------------------------------
+ *  Hybrid MLM  Copyright (c) 2018 All Rights Reserved
+ *  -------------------------------------------------
+ *
+ *  @author Acemero Technologies Pvt Ltd
+ *  @link https://www.acemero.com
+ *  @see https://www.hybridmlm.io
+ *  @version 1.00
+ *  @api Laravel 5.4
+ */
+
+.page-content {
+    background: #eee;
+}
+
+.row.faqSection {
+    margin: 0px;
+    padding: 0px;
+    max-width: 800px;
+    margin-top: 41px !important;
+    margin: 20px auto;
+}
+
+/*  bhoechie tab */
+.faq.bhoechie-tab-container {
+    /* z-index: 10;*/
+    background-color: #ffffff;
+    padding: 0 !important;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    border: 1px solid #ddd;
+    /*margin-top: 20px;
+    margin-left: 50px;*/
+    /*-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    -moz-box-shadow: 0 6px 12px rgba(0,0,0,.175);*/
+    background-clip: padding-box;
+    opacity: 0.97;
+    filter: alpha(opacity=97);
+}
+
+.faqLeft.bhoechie-tab-menu {
+    padding-right: 0;
+    padding-left: 0;
+    background: #fff;
+    padding-bottom: 0;
+}
+
+.faqLeft.bhoechie-tab-menu .list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: none;
+    border-top: 0px;
+    border-left: 0px;
+}
+
+.faqLeft.bhoechie-tab-menu .list-group-item:last-child {
+    border-bottom: 0px;
+}
+
+.faqLeft.bhoechie-tab-menu div.list-group {
+    margin-bottom: 0;
+    min-height: 50vh;
+    /* background: #eee; */
+    padding: 15px 0;
+}
+
+.faqLeft.bhoechie-tab-menu div.list-group > a {
+    margin-bottom: 0;
+    text-align: inherit;
+}
+
+.faqLeft.bhoechie-tab-menu div.list-group > a .glyphicon,
+.faqLeft.bhoechie-tab-menu div.list-group > a .fa {
+    /* color: #364150; */
+    /*color: #5A55A3;*/
+}
+
+.faqLeft.bhoechie-tab-menu div.list-group > a:first-child {
+    border-top-right-radius: 0;
+    -moz-border-top-right-radius: 0;
+}
+
+.faqLeft.bhoechie-tab-menu div.list-group > a:last-child {
+    border-bottom-right-radius: 0;
+    -moz-border-bottom-right-radius: 0;
+}
+
+.faqLeft.bhoechie-tab-menu div.list-group > a.active,
+.faqLeft.bhoechie-tab-menu div.list-group > a.active .glyphicon,
+.faqLeft.bhoechie-tab-menu div.list-group > a.active .fa {
+    /* background-color: #efefef; */
+    background-image: #5A55A3;
+    color: #364150;
+    border: #dfdfdf;
+    text-align: inherit;
+}
+
+.faqLeft.bhoechie-tab-menu div.list-group > a.active:after, .faqLeft.bhoechie-tab-menu div.list-group > a.active:before {
+    content: '';
+    position: absolute;
+    left: 99%;
+    top: 50%;
+    margin-top: -10px;
+    visibility: hidden;
+    /* z-index: 9999999; */
+    border-left: 0;
+    border-bottom: 9px solid transparent;
+    border-top: 9px solid transparent;
+    border-left: 10px solid #dedede;
+}
+
+.faqRight.bhoechie-tab-content {
+    background-color: #ffffff;
+    /* border: 1px solid #eeeeee; */
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+div.bhoechie-tab .faqRight.bhoechie-tab-content:not(.active) {
+    display: none;
+}
+
+.faqRight.bhoechie-tab-content h3 {
+    border-bottom: dotted 1px #ccc;
+    padding-bottom: 10px;
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+/* collaps */
+.faqRight .panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #EEEEEE;
+}
+
+.faqRight .panel-default > .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #212121;
+    background-color: #FAFAFA;
+    border-color: #EEEEEE;
+}
+
+.faqRight .panel-title {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.faqRight .panel-title > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.faqRight .more-less {
+    float: right;
+    color: #212121;
+}
+
+.faqRight .panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #EEEEEE;
+}
+
+.faqLeft.bhoechie-tab-menu h4.fa {
+    font-size: 22px;
+}
+
+.faqLeft.bhoechie-tab-menu div.list-group > a i {
+    margin-right: 8px;
+    border: 3px solid #ddd;
+    width: 14px;
+    display: inline-block;
+    height: 14px;
+    top: 2px;
+    color: #ddd;
+    position: relative;
+}
+
+.faqLeft.bhoechie-tab-menu div.list-group > a {
+    font-size: 15px;
+    color: #b1aeae;
+}
+
+.faqLeft.bhoechie-tab-menu div.list-group > a.active:before {
+    border-left: 10px solid #fefefe;
+    z-index: 99;
+    left: 98%;
+}
+
+.faqLeft.bhoechie-tab-menu:after {
+    position: absolute;
+    width: 2px;
+    right: 0;
+    content: '';
+    top: 0;
+    height: 100%;
+    /* z-index: 9; */
+    background: #ddd;
+}
+
+.faqLeft.bhoechie-tab-menu div.list-group > a.active {
+    border-right: 2px solid #6d6d6d;
+}
+
+.faqLeft.bhoechie-tab-menu div.list-group > a.active i {
+    border-color: #8a8a8a !important;
+}
+
+.nofaqs {
+    padding: 10px 0;
+    color: #9e9a9a;
+}
+
+.faqRight .panel-body iframe {
+    max-width: 100%;
+}

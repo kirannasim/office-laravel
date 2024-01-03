@@ -1,0 +1,206 @@
+/*
+ *  -------------------------------------------------
+ *  Hybrid MLM  Copyright (c) 2018 All Rights Reserved
+ *  -------------------------------------------------
+ *
+ *  @author Acemero Technologies Pvt Ltd
+ *  @link https://www.acemero.com
+ *  @see https://www.hybridmlm.io
+ *  @version 1.00
+ *  @api Laravel 5.4
+ */
+
+.privilageWrapper .select2-container--bootstrap .select2-results__group {
+    display: block;
+    font-size: 14px !important;
+    color: #999;
+}
+
+.privilageWrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.userGroupPicker label {
+    font-weight: 400;
+    line-height: 2;
+    font-size: 17px;
+}
+
+.moduleGroup h4, .themeGroup h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #565656;
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 4px;
+}
+
+.eachPrivilageGroup h3 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 19px;
+    flex: 1;
+    color: #4c4c4c;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 7px;
+    width: 90%;
+    margin-bottom: 10px !important;
+    display: inline-block;
+}
+
+span.togglers {
+    display: inline-block;
+    text-align: right;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.privilageHead {
+    display: flex;
+}
+
+.itemGroup .eachItem {
+    padding: 4px;
+    overflow: hidden;
+    margin: 0 !important;
+    padding-left: 0;
+    width: 100%;
+    color: #757575;
+}
+
+.userGroupPicker {
+    /* padding: 15px; */
+    margin-bottom: 20px;
+    /* box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.12); */
+    /* background: white; */
+    margin: 15px auto !important;
+    /* padding: 20px; */
+    border: none !important;
+}
+
+.privilagedItemsWrapper {
+    /* box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.12); */
+    /* background: white; */
+    /* padding: 15px; */
+    border: none !important;
+}
+
+.privilagedItemsWrapper, .userGroupPicker {
+    margin: auto;
+    /*max-width: 800px;*/
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    /* background: white; */
+}
+
+.userGroupPicker select {
+    padding: 6px;
+    border: 1px solid #ddd;
+    height: auto;
+    cursor: pointer;
+    outline: none;
+    /* border-radius: 16px !important; */
+    width: 100%;
+    color: #565656;
+    /* box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1); */
+}
+
+.itemGroup {
+    background: white;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.06);
+}
+
+.userGroupPicker.row .col-md-4 {
+    padding: 0;
+}
+
+.userGroupPicker label {
+    font-weight: 600;
+    line-height: 2;
+    font-size: 17px;
+}
+
+.eachItem.module i {
+    margin-right: 5px;
+}
+
+.eachPrivilageGroup h3 i {
+    margin-right: 5px;
+}
+
+.eachItem.module.row .col-md-4 {
+    text-align: right;
+}
+
+span.togglers i {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid darkgrey;
+    padding: 2px;
+    font-size: 12px;
+    color: #666;
+    cursor: pointer;
+}
+
+.eachPrivilageGroup {
+    margin-bottom: 15px;
+}
+
+.userGroupPicker .select2-container--default .select2-selection--single {
+    border: 1px solid #bfbfbf;
+    height: auto !important;
+    padding: 3px;
+}
+
+.searchItem input[type="text"] {
+    padding: 6px;
+    color: black;
+    float: left;
+    flex: 1;
+    outline: none;
+    border: 1px solid #e5e5e5;
+    border-right: 0;
+}
+
+.searchItem {
+    display: flex;
+    width: 100%;
+}
+
+.eachPrivilageGroup .itemMetaWrap {
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.eachPrivilageGroup .itemMetaWrap button {
+    float: right;
+}
+
+.moduleGroup .eachItem, .routeGroup .eachItem, .themeGroup .eachItem {
+    padding: 5px;
+    border-bottom: 1px dashed #ddd;
+    margin: 0;
+    overflow: hidden;
+    padding-left: 0;
+    color: #757575;
+}
+
+.eachPrivilageGroup .eachItem span.description {
+    padding: 3px 6px;
+    background: #eee;
+    font-size: 12px;
+    float: right;
+}
+
+.eachPrivilageGroup .eachItem label {
+    margin: 0;
+    width: 100%;
+}

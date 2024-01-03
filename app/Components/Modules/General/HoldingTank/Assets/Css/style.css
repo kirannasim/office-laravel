@@ -1,0 +1,239 @@
+/*
+ *  -------------------------------------------------
+ *  Hybrid MLM  Copyright (c) 2018 All Rights Reserved
+ *  -------------------------------------------------
+ *
+ *  @author Acemero Technologies Pvt Ltd
+ *  @link https://www.acemero.com
+ *  @see https://www.hybridmlm.io
+ *  @version 1.00
+ *  @api Laravel 5.4
+ */
+
+.page-content {
+    overflow: hidden;
+}
+
+.row.holdingTankWrapper {
+    margin: 0px;
+}
+
+.row.holdingSummery {
+    margin: 0px;
+}
+
+.row.holdingSummery .col-sm-12 {
+    padding: 0px;
+}
+
+.row.holdingSummery .col-sm-3 {
+    padding: 0px;
+}
+
+.row.holdingSummery .holdingGrid i {
+    position: absolute;
+    font-size: 100px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    top: 26px;
+    color: #dddddd24;
+}
+
+.row.holdingSummery .holdingGrid {
+    border: solid 2px #e56262;
+    background-color: #d2252f;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    padding: 20px 2px;
+    min-height: 102px;
+}
+
+.row.holdingSummery .holdingGrid h3 {
+    text-align: center;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.row.holdingSummery .col-sm-3 .holdingGrid h3 {
+    font-size: 14px;
+}
+
+.row.holdingSummery .holdingGrid h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+
+.row.holdingSettings {
+    border: solid 1px #e6e6e6;
+    padding: 5px;
+    min-height: 206px;
+}
+
+.row.holdingSettings h3.title {
+    margin: 5px 0px;
+    border-bottom: solid 1px #d2252f;
+    padding-bottom: 5px;
+    color: #d2252f;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.holdingSwitch.checkbox {
+    margin-top: 0px;
+}
+
+.holdingSwitch.checkbox .toggle.btn.btn-primary {
+    border-color: #f61200;
+}
+
+.holdingSwitch.checkbox .toggle-group label.btn.btn-primary.toggle-on {
+    background-color: red;
+}
+
+.row.holdingSettings select.form-control {
+    margin-bottom: 10px;
+}
+
+.row.holdingSettings label {
+    font-weight: 600;
+}
+
+.row.holdingNote {
+    border: solid 1px #e6e6e6;
+    padding: 5px;
+}
+
+.row.holdingNote h3.title {
+    margin: 5px 0px;
+    border-bottom: solid 1px #d2252f;
+    padding-bottom: 5px;
+    color: #d2252f;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.row.holdingNote select.form-control {
+    margin-bottom: 10px;
+}
+
+.row.holdingNote label {
+    font-weight: 600;
+}
+
+.row.holdingNote .Note {
+    background-color: #e5e3e3;
+    color: #320406;
+    border: solid 1px #aea1a2;
+    border-left: solid 4px #d2252f;
+    margin-bottom: 10px;
+}
+
+.row.holdingNote .Note p {
+    margin: 0px;
+    padding: 3px;
+    font-size: 10px;
+}
+
+.row.holdingTank-tableWrapper {
+    margin: 15px 0px;
+    border: solid 1px #ddd;
+    padding: 10px;
+}
+
+.holdingTable table.table thead tr th {
+    background-color: #eee;
+    padding: 12px 8px;
+    text-align: left;
+}
+
+.holdingTable table.table tbody tr td {
+    text-align: left;
+    vertical-align: middle;
+}
+
+.holdingTable table.table tbody tr td button.btn {
+    width: 100%;
+}
+
+.row.holdingTank-tableWrapper h3.title {
+    margin: 10px 0px 18px 0px;
+    border-bottom: solid 1px #d2252f;
+    padding-bottom: 5px;
+    color: #d2252f;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+}
+
+.row.holdingTank-tableWrapper h3.title:before {
+    position: absolute;
+    content: "";
+    width: 140px;
+    height: 5px;
+    background-color: #d2252f;
+    bottom: -3px;
+}
+
+.holdingFilterWrapper .filters.row {
+    margin: 10px -15px 15px;
+}
+
+.toggleSwitchWrapper {
+    display: flex;
+    color: #757272;
+}
+
+.toggleSwitchWrapper .switch {
+    width: 55px;
+    margin: 0 15px;
+    position: relative;
+    cursor: pointer;
+    background: #eee;
+    box-shadow: 0px 2px 5px #ddd inset;
+    border-radius: 15px !important;
+}
+
+.toggleSwitchWrapper label {
+    margin: 0;
+}
+
+.toggleSwitchWrapper .switch .trigger {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    transition: all 0.3s ease;
+    background: #11ca8e;
+    box-shadow: 1px 0px 3px #4e4e4e;
+    display: block;
+    border-radius: 50% !important;
+}
+
+.toggleSwitchWrapper .switch .trigger.right {
+    left: 60%;
+}
+.holdingSwitch.checkbox label {
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.holdingSwitch.checkbox .toggleSwitchWrapper label {
+    padding-left: 0px;
+}
+
+.row.holdingSettings button.btn.saveStatus {
+    margin-top: 6px;
+}
+
+.row.holdingNote button.btn.placeAllUsers {
+    margin-top: 8px;
+}
+
+.timer{
+    padding: 6px 6px 6px 6px;
+    background-color: #e0e0e0;
+    text-align: center;
+}

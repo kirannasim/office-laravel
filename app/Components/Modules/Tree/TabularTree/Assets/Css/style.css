@@ -1,0 +1,170 @@
+/*
+ *  -------------------------------------------------
+ *  Hybrid MLM  Copyright (c) 2018 All Rights Reserved
+ *  -------------------------------------------------
+ *
+ *  @author Acemero Technologies Pvt Ltd
+ *  @link https://www.acemero.com
+ *  @see https://www.hybridmlm.io
+ *  @version 1.00
+ *  @api Laravel 5.4
+ */
+
+form.treeFilters {
+    margin-bottom: 0px;
+    position: relative;
+    border-bottom: 2px solid #36c6d3 !important;
+    display: block;
+    padding: 0 !important;
+    box-shadow: 3px 9px 10px rgba(68, 68, 68, 0.11);
+}
+
+.treeFilters input[type="text"] {
+    padding: 5px;
+    border: 1px solid #dddddd;
+    outline: none !important;
+    width: 100%;
+}
+
+.arrowNav:after {
+    content: '';
+    position: relative;
+    width: 0px;
+    display: block;
+    margin: auto;
+    border-top: 10px solid #36c6d3 !important;
+    border: 10px solid rgba(255, 255, 255, 0.02);
+    height: 0px;
+}
+
+.arrowNav {
+    position: relative;
+}
+
+form.treeFilters > div {
+    padding: 10px;
+}
+
+.ajaxDropDown .eachResult {
+    padding: 6px;
+    border-bottom: 1px solid #e5e5e5;
+    cursor: pointer;
+    color: black;
+}
+
+.ajaxDropDown {
+    position: absolute;
+    z-index: 999;
+    display: none;
+    max-width: 400px;
+    background: white;
+    border: 1px solid #dadada;
+    border-bottom: 3px solid #36c6d3;
+    box-shadow: 4px 6px 12px rgba(62, 62, 62, 0.28);
+}
+
+.ajaxNoResult i {
+    color: black;
+    font-size: 15px;
+}
+
+.ajaxNoResult {
+    padding: 10px;
+    font-size: 13px;
+    color: #a5a5a5;
+    font-style: italic;
+}
+
+.tree-head {
+    /* font-weight: 600; */
+    /* margin-bottom: 10px; */
+}
+
+.portlet-body > .treeitem {
+}
+
+.treeWrapper .portlet-body > .jstree-node {
+    font-weight: 600;
+    margin-bottom: 5px;
+    right: 4px;
+    position: relative;
+    font-size: 15px;
+}
+
+.treeWrapper .portlet-body > .jstree-node i {
+    font-size: 18px;
+    display: inline-block;
+    line-height: 1;
+    margin: 0;
+}
+
+.AvatarBlock.dropdown {
+    float: right;
+    background-color: transparent !important;
+    margin-top: 19px;
+}
+
+.AvatarBlock.dropdown button.btn {
+    background-color: transparent;
+    border: solid 1px #eee;
+    color: #888;
+    padding: 10px 10px;
+    font-size: 14px;
+}
+
+.AvatarBlock.dropdown button.btn span i {
+    padding: 0px 4px;
+}
+
+.AvatarBlock ul.dropdown-menu {
+}
+
+.AvatarBlock ul.dropdown-menu h3.AvatarTitle {
+    margin: 0;
+    font-size: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    font-weight: 400;
+    color: #9e9898;
+    white-space: nowrap;
+    background: #eaedf2;
+}
+
+.AvatarBlock ul.dropdown-menu:after {
+    border-bottom: 7px solid #eaedf2;
+}
+
+.AvatarBlock ul.dropdown-menu li {
+    border-bottom: solid 1px #eeeeee96;
+    padding: 8px 16px;
+    color: #6f6f6f;
+    text-decoration: none;
+    display: block;
+    clear: both;
+    font-weight: 300;
+    line-height: 18px;
+    white-space: nowrap;
+}
+
+.AvatarBlock ul.dropdown-menu li span img {
+    width: 15px;
+}
+
+.AvatarBlock ul.dropdown-menu li span label.avtColor {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    display: inline-block;
+    margin: 0px;
+}
+
+.webui-popover .webui-popover-content .card {
+    max-width: 235px !important;
+    margin: auto;
+    width: 210px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    padding-top: 0;
+    background-color: rgb(255, 255, 255)
+}
